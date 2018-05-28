@@ -1,0 +1,68 @@
+#footer-site .footer-wrp .top .col-4 {
+    display: block;
+    float: right;
+    padding: 0 15px;
+    margin-bottom: 25px;
+}
+#footer-site .footer-wrp .top .col-4 .accordion {
+    width: 100%;
+    border-top: 1px solid #d6d6d6;
+    background-color: transparent;
+    padding: 0 5px;
+    cursor: pointer;
+    line-height: 3;
+    text-align: right;
+    outline: none;
+    -webkit-transition-duration: .3s;
+    -moz-transition-duration: .3s; 
+    transition-duration: .3s;
+}
+#footer-site .footer-wrp .top .col-4 button:last-child {
+    border-bottom: 1px solid #d6d6d6;
+}
+#footer-site .footer-wrp .top .col-4 .accordion span {
+    font-size: 10px;
+    color: #f5c41a;
+}
+#footer-site .footer-wrp .top .col-4 .accordion i {
+    font-size: 9px;
+    -webkit-transition-duration: .2s;
+    -moz-transition-duration: .2s; 
+    transition-duration: .2s;
+    color: #fff;
+}
+#footer-site .footer-wrp .top .col-4 .accordion i.rotate {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+#footer-site .footer-wrp .top .col-4 .accordion.active {
+    background-color: #f5c41a;
+}
+#footer-site .footer-wrp .top .col-4 .accordion.active span {
+    color: #000
+}
+#footer-site .footer-wrp .top .col-4 .accordion.active i {
+    color: #000;
+}
+#footer-site .footer-wrp .top .col-4 .panel {
+    padding: 0 9px;
+    display: none;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+#footer-site .footer-wrp .top .col-4 .panel li {
+    line-height: 26px;
+    text-align: right;
+    margin-bottom: 5px;
+}
+#footer-site .footer-wrp .top .col-4 .panel li a {
+    font-size: 9px;
+    color: #fff;
+    text-decoration: none;
+}
+#footer-site .footer-wrp .top .col-4 .panel li a:hover,
+#footer-site .footer-wrp .top .col-4 .panel li a:active {
+    color: #f5c41a;
+}

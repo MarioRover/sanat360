@@ -1,0 +1,53 @@
+#header-site {
+  background: rgb(0,0,0);
+}
+#company-category {
+  z-index: 2;
+  margin-top: 50px;
+}
+#company-category .hero3 {
+  width: 100%;
+  min-height: 30em;
+  overflow: hidden;
+  position: relative;
+  background-color: #fff;
+  z-index: 2;
+}
+/* ======================================================== */
+#company-category .category-wrp {
+  width: 100%;
+  /* margin: 2em auto; */
+  min-height: 40em;
+  z-index: 2;
+}
+#company-category .header {
+  width: 100%;
+  background-color: #10254f;
+  min-height: 4em;
+}
+#company-category .header .header-wrp {
+  width: 90%;
+}
+#company-category .header h4 {
+  text-align: right;
+  font-size: 20px;
+  color: #fff;
+}
+#company-category .category {
+  width: 100%;
+  min-height: 37em;
+  overflow: hidden;
+  padding: 2em 0;
+}
+#company-category .category .category-container {
+  width: 60em;
+}
+@media print, screen and (min-width: 61.250em) {
+	/*980px*/
+  .hero3 .hero-wrp .header-wrp {
+    -webkit-transform: translateY(-13px);
+  -moz-transform: translateY(-13px);
+  -ms-transform: translateY(-13px);
+  transform: translateY(-13px);
+  }
+}

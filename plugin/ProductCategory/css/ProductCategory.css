@@ -1,0 +1,240 @@
+#header-site {
+  background: rgb(0,0,0);
+}
+#product-category {
+  z-index: 2;
+  margin-top: 50px;
+}
+#product-category .hero3 {
+  width: 100%;
+  min-height: 30em;
+  overflow: hidden;
+  position: relative;
+  background-color: #fff;
+  z-index: 2;
+}
+/* ======================================================== */
+#product-category .category-wrp {
+  width: 100%;
+  min-height: 40em;
+  z-index: 2;
+}
+#product-category header {
+  width: 100%;
+}
+#product-category .header-wrp {
+  background-color: #f5c41a;
+  padding: 10px 20px;
+  border-radius: 0 0 8px 10px;
+  box-shadow: 0px 1px 15px -2px #555951;
+}
+#product-category .header-wrp h2 {
+  text-align: center;
+  font-size: 14px;
+}
+#product-category .category {
+  width: 100%;
+  min-height: 37em;
+  overflow: hidden;
+  padding: 2em 0;
+}
+#product-category .category .category-container {
+  width: 60em;
+}
+@media print, screen and (min-width: 61.250em) {
+	/*980px*/
+  .hero3 .hero-wrp .header-wrp {
+  -webkit-transform: translateY(-13px);
+  -moz-transform: translateY(-13px);
+	-ms-transform: translateY(-13px);
+	-o-transform: translateY(-13px);
+  transform: translateY(-13px);
+  }
+}
+/* --------------------------------------------------------------------- */
+.product-card {
+	position: relative;
+  margin: 0 auto;
+  margin-bottom: 15px;
+	max-width: 1000px;
+	list-style: none;
+	text-align: center;
+	float: right;
+}
+/* Common style */
+.product-card figure {
+	position: relative;
+	overflow: hidden;
+	height: 15em;
+	background: #3085a3;
+	text-align: center;
+	cursor: pointer;
+}
+.product-card figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	max-width: 100%;
+	opacity: 0.8;
+}
+.product-card figure figcaption {
+	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.product-card figure figcaption::before,
+.product-card figure figcaption::after {
+	pointer-events: none;
+}
+.product-card figure figcaption,
+.product-card figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.product-card figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+.product-card figure h2 {
+	word-spacing: -0.15em;
+	font-weight: 300;
+}
+.product-card figure h2 span {
+	font-weight: 800;
+}
+.product-card figure h2,
+.product-card figure p {
+	margin: 0;
+}
+.product-card figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+/*---------------*/
+/***** Ming *****/
+/*---------------*/
+figure.effect-ming {
+	background: #030c17;
+}
+figure.effect-ming img {
+	opacity: 0.9;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+}
+figure.effect-ming figcaption::before {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	bottom: 20px;
+	left: 20px;
+	border: 2px solid #fff;
+	box-shadow: 0 0 0 30px rgba(255,255,255,0.2);
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale3d(1.4,1.4,1);
+	transform: scale3d(1.4,1.4,1);
+}
+figure.effect-ming h2 {
+  font-family: 'iransans-bold';
+  font-size: 24px;
+	margin: 20% 0 10px 0;
+	-webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+}
+figure.effect-ming p {
+	padding: 1em;
+  opacity: 0;
+  font-family: 'iransans-light';
+  font-size: 14px;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+figure.effect-ming:hover h2 {
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+}
+figure.effect-ming:hover figcaption::before,
+figure.effect-ming:hover p {
+	opacity: 1;
+	-webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1);
+}
+figure.effect-ming:hover figcaption {
+	background-color: rgba(58,52,42,0);
+}
+figure.effect-ming:hover img {
+	opacity: 0.4;
+}
+/* ----------------------------------------------------------------------------- */
+@media print, screen and (min-width: 20em) {
+  /* 320px */
+	#product-category .category .category-container {
+		width: 19em;
+	}
+	#product-category .category .category-container .product-card {
+		margin-bottom: 15px;
+	}
+	.product-card figure {
+		width: 19em;
+	}
+}
+@media print, screen and (min-width: 660px) {
+  /* 603px */
+	#product-category .category .category-container {
+		width: 38.7em;
+	}
+	#product-category .category .category-container .product-card:nth-child(2n-1) {
+		margin-left: 10px;
+	}
+}
+@media print, screen and (min-width: 61.250em) {
+	/*980px*/
+	#product-category .category .category-container {
+		width: 55.3em;
+	}
+	#product-category .category .category-container .product-card:nth-child(2n-1) {
+		margin-left: 0;
+	}
+	#product-category .category .category-container .product-card:nth-child(3n-1),
+	#product-category .category .category-container .product-card:nth-child(3n-2) {
+		margin-left: 10px;
+	}
+	.product-card figure {
+		width: 18em;
+	}
+	#product-category {
+	  z-index: 2;
+	  margin-top: 50px;
+	}
+}
+@media screen and (min-width: 1250px) {
+	/*1200px*/
+	#product-category .category .category-container .product-card:nth-child(3n-1),
+	#product-category .category .category-container .product-card:nth-child(3n-2) {
+		margin-left: 0px;
+	}
+	#product-category .category .category-container .product-card:nth-child(4n-1),
+	#product-category .category .category-container .product-card:nth-child(4n-2),
+	#product-category .category .category-container .product-card:nth-child(4n-3)
+	{
+		margin-left: 10px;
+	}
+	#product-category .category .category-container {
+		width: 73.9em;
+	}
+}

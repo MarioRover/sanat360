@@ -1,0 +1,374 @@
+#header-site {
+  background-color: #000;
+}
+#company-details {
+  width: 100%;
+  min-height: 50em;
+  margin-top: 50px;
+  overflow: hidden;
+  background-color: #fff;
+  z-index: 2;
+}
+#company-details .pic {
+  width: 100%;
+  min-height: 8em;
+  background-image: url("../../../img/company-details-pic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#company-details .header-category {
+  width: 100%;
+  min-height: 3.5em;
+  background-color: #10254f;
+  position: relative;
+}
+#company-details .wrp {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: -90px;
+  position: relative;
+}
+#company-details .header-category .wrp h4 {
+  color: #fff;
+  font-family: 'iransans-bold';
+  font-size: 16px;
+  text-align: right;
+  position: absolute;
+  bottom: -55px;
+  right: 0;
+}
+#company-details .header-details {
+  width: 100%;
+  /* height: 9em; */
+  height: 22em;
+  margin-bottom: 1em;
+  overflow: hidden;
+  border: 1px solid #ddd;
+}
+#company-details .header-details .logo-com {
+  float: right;
+  /* width: 20%; */
+  width: 100%;
+  height: 10em;
+  overflow: hidden;
+  background-color: #fff;
+  /* border-right: 1px solid #ddd; */
+}
+#company-details .header-details .info-com {
+  float: right;
+  /* width: 80%; */
+  width: 100%;
+  padding: 17.4px 0;
+  background-color: #f7f7f7;
+  overflow: hidden;
+}
+#company-details .header-details .logo-com img {
+  width: 7em;
+}
+#company-details .header-details .info-com .name-com {
+  width: 100%;
+  height: 50%;
+  padding-bottom: 1em;
+}
+#company-details .header-details .info-com .name-com h4 {
+  width: 95%;
+  margin: auto;
+  color: #000;
+  font-family: 'iransans-bold';
+  font-size: 18px;
+  text-align: right;
+}
+#company-details .header-details .info-com .information {
+  width: 100%;
+  height: 50%;
+}
+#company-details .header-details .info-com .information .information-wrp {
+  margin-right: 3%;
+  /*  */
+  width: 100%;
+}
+.header-details .info-com .information .information-wrp i {
+  font-size: 18px;
+  margin-left: 10px;
+  color: #10254f;
+}
+.header-details .info-com .information .information-wrp a ,
+.header-details .info-com .information .information-wrp span,
+#company-details .wrp .wrp2 .navbar li span {
+  font-size: 12px;
+  font-family: 'iransans-light';
+}
+#company-details .wrp .wrp2 .navbar li span:hover {
+  font-weight: 600;
+  cursor: pointer;
+}
+.header-details .info-com .information .information-wrp .link {
+  /* margin-left: 20px; */
+  margin: 10px;
+  width: 100%;
+}
+.header-details .info-com .information .information-wrp link .link-wrp {
+  width: 100%;
+}
+.fa-external-link-alt {
+  margin-right: -4px;
+}
+#company-details .wrp .wrp2 {
+  width: 100%;
+}
+#company-details .wrp .wrp2 .navbar {
+  /* width: 20%; */
+  width: 100%;
+  margin-bottom: 1em;
+}
+#company-details .wrp .wrp2 .content-details {
+  /* width: 80%; */
+  width: 100%;
+}
+#company-details .wrp .wrp2 .navbar li {
+  width: 100%;
+  line-height: 3.5;
+}
+#company-details .wrp .wrp2 .navbar li i {
+  font-size: 18px;
+  color: #10254f;
+  margin-left: 2em;
+}
+#company-details .wrp .wrp2 .navbar li:first-child i {
+  margin-left: 43px;
+}
+#company-details .wrp .wrp2 .navbar .clear {
+  content: " ";
+  width: 90%;
+  margin: 20px auto;
+  border-top: 1px solid #e0e0e0;
+  height: 2px;
+}
+#company-details .wrp .wrp2 .navbar .social li a i {
+  color: #b7b7b7;
+  margin: 0 10px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+#company-details .wrp .wrp2 .navbar .social li a i:hover {
+  color: #1c212f;
+}
+#company-details .wrp .wrp2 .navbar .social li {
+  width: auto;
+  line-height: 0;
+}
+#company-details .wrp .wrp2 .content-details .image {
+  width: 100%;
+  height: 20em;
+  overflow: hidden;
+  border-radius: 7px;
+  margin-bottom: 1em;
+  background-image: url("../../../img/factory2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#company-details .wrp .wrp2 .content-details .header {
+  width: 100%;
+  min-height: 3em;
+  border-radius: 7px;
+  background-color: #ebebeb;
+  padding: 0 20px;
+  margin-bottom: 1em;
+}
+#company-details .wrp .wrp2 .content-details .header h4 {
+  font-family: 'iransans-bold';
+  font-size: 14px;
+}
+#company-details .wrp .wrp2 .content-details .about {
+  width: 100%;
+  margin-bottom: 1em;
+}
+#company-details .wrp .wrp2 .content-details .about p {
+  text-align: justify;
+  line-height: 30px;
+  font-size: 12px;
+  direction: rtl;
+  font-family: 'iransans-light';
+  padding: 0 10px;
+}
+/* ======================================= */
+/* Product Card */
+.product-card {
+  border-radius: 6px 6px 3px 3px;
+  color: #191919;
+  float: right;
+  margin: 0 5px 15px 0;
+  width: 149px;
+  position: relative;
+  text-align: right;
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(25,25,25,0.2);
+  cursor: pointer;
+}
+.product-card:nth-child(2n+1) {
+  margin-right: 0;
+}
+.product-card .img-wrp {
+  background-color: #f9f9f9;
+}
+.product-card .img-wrp .overlay {
+  background-color: #191919;
+  width: 100%;
+  height: 9.9em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+  -webkit-transition: opacity .5s linear;
+  -moz-transition: opacity .5s linear;
+  -ms-transition: opacity .5s linear;
+  -o-transition: opacity .5s linear;
+  transition: opacity .5s linear;
+}
+.product-card .img-wrp img {
+  width: 100%;
+  border-radius: 3px 3px 0 0;
+  z-index: 2;
+}
+.product-card .img-wrp .overlay.active {
+  opacity: 0.2;
+}
+.product-card .product-card-details {
+  z-index: 3;
+}
+.product-card .product-card-details h4 {
+  font-size: 11px;
+  text-align: right;
+}
+.product-card .product-card-details .product-card-content {
+  padding: 7px 10px 0 10px;
+  height: 7em;
+}
+.product-card .product-card-details .read-more {
+  background-color: #f2f2f2;
+  width: 100%;
+  min-height: 2em;
+  padding: 0 15px;
+}
+.product-card .read-more span {
+  font-size: 10px;
+}
+#company-details .wrp .wrp2 .content-details .product {
+  width: 100%;
+  margin-bottom: 1em;
+}
+#company-details .wrp .wrp2 .content-details .product .product-wrp {
+  width: 19em;
+}
+@media print, screen and (min-width: 21.875em) {
+  /* 350px */
+  #company-details .wrp .wrp2 .content-details .product .product-wrp {
+    width: 20.4em;
+  }
+  .product-card {
+    margin: 0 15px 20px 0;
+    width: 47.7%;
+  }
+}
+@media print, screen and (min-width: 25em) {
+  /* 400px */
+  #company-details .wrp .wrp2 .content-details .product .product-wrp {
+    width: 26em;
+  }
+  .product-card {
+    width: 48%;
+  }
+}
+@media print, screen and (min-width: 28.125em) {
+  /* 450px */
+  #company-details .wrp .wrp2 .content-details .product .product-wrp {
+    width: 26em;
+  }
+  .product-card {
+    width: 200px;
+  }
+}
+@media print, screen and (min-width: 43.875em) {
+  /* 702px */
+  #company-details .wrp .wrp2 .content-details .product .product-wrp {
+    width: 40em !important;
+  }
+  .product-card:nth-child(3n-1),
+  .product-card:nth-child(3n) {
+    margin-right: 20px;
+  }
+  .product-card:nth-child(3n-2) {
+    margin-right: 0;
+  }
+}
+@media print, screen and (min-width: 48em) {
+  /*768px*/
+  #company-details .header-details .info-com .information .information-wrp {
+    flex-flow: row nowrap;
+  }
+  #company-details .header-details {
+    flex-flow: row nowrap;
+    height: 10em;
+  }
+  #company-details .header-details .logo-com {
+    width: 20em;
+    border-right: 1px solid #ddd;
+  }
+}
+@media print, screen and (min-width: 61.250em) {
+  /*980px*/
+  #company-details {
+    margin-top: 50px;
+  }
+  #company-details .wrp .wrp2 .navbar {
+    width: 26.8%;
+  }
+  #company-details .wrp .wrp2,
+  #company-details .header-details .info-com .information .information-wrp {
+    flex-flow: row nowrap;
+  }
+  #company-details .wrp {
+    width: 55em;
+  }
+  #company-details .wrp .wrp2 .content-details {
+    width: 73.2%;
+  }
+}
+@media screen and (min-width: 75em) {
+  /*1200px*/
+  
+  #company-details .wrp .wrp2 .navbar {
+    width: 22.4%;
+  }
+  #company-details .wrp .wrp2 .content-details {
+    width: 77.6%;
+  }
+  #company-details .wrp {
+    width: 70em;
+  }
+  #company-details .wrp .wrp2 .content-details .product .product-wrp {
+    width: 100% !important;
+  }
+  .product-card:nth-child(3n-2),
+  .product-card:nth-child(3n-1),
+  .product-card:nth-child(3n) {
+    margin-right: 0;
+  }
+  .product-card:nth-child(4n-2),
+  .product-card:nth-child(4n-1),
+  .product-card:nth-child(4n) {
+    margin-right: 20px;
+  }
+  .product-card:nth-child(4n-3) {
+    margin-right: 0;
+  }
+}

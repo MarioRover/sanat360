@@ -1,0 +1,92 @@
+#signup-user-page {
+	width: 100%;
+	height: 100%;
+	background-image: url('../../../../img/factory.jpg');
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+#signup-user-page .signup-wrp {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+}
+#signup-user-page .signup-wrp .form-wrp {
+	width: 100%;
+	min-height: 100%;
+	margin-top: 6.5em;
+	background-color: rgba(140, 140, 140, 0.59);
+}
+#signup-user-page .signup-wrp .form-wrp .header {
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.75);
+}
+#signup-user-page .signup-wrp .form-wrp .header div {
+	text-align: right;
+}
+#signup-user-page .signup-wrp .form-wrp .header div h4 {
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+#signup-user-page .signup-wrp .form-wrp .header div p {
+	color: rgba(255,255,255,.7);
+	font-size: 11px;
+}
+#signup-user-page .signup-wrp .form-wrp .header i {
+	color: rgba(255,255,255,0.4);
+	font-size: 2em;
+}
+#signup-user-page .signup-wrp .form-wrp .form-container {
+
+}
+#signup-user-page .signup-wrp form {
+	width: 80%;
+}
+#signup-user-page .signup-wrp form .input-wrp {
+	width: 100%;
+	height: 2.5em;
+	margin-bottom: 12px;
+	border-radius: 4px;
+	background-color: rgba(0,0,0,0.5);
+}
+#signup-user-page .signup-wrp form .input-wrp i {
+	font-size: 1.2em;
+	margin-left: 12px;
+	color: rgba(255,255,255,0.5);
+}
+#signup-user-page .signup-wrp form .input-wrp input {
+	width: 90%;
+	height: 100%;
+	padding: 10px 8px;
+  line-height: 20px;
+	font-size: 1em;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	color: #fff;
+}
+#signup-user-page .signup-wrp form  button {
+	background-color: #f5c41a;
+	width: 100%;
+	height: 2.3em;
+	border-radius: 4px;
+	cursor: pointer;
+}
+#signup-user-page .signup-wrp form  button:hover,
+#signup-user-page .signup-wrp form  button:active {
+	background-color: #fff;
+}
+#signup-user-page .signup-wrp form  button:hover span,
+#signup-user-page .signup-wrp form  button:active span {
+	color: #000;
+}
+#signup-user-page .signup-wrp form button span {
+	font-size: 14px;
+}
+/* ======================================== */
+#header-site {
+	background-color: rgb(0,0,0);
+}

@@ -1,0 +1,212 @@
+#header-site {
+  background-color: #000;
+}
+#contact-page {
+  z-index: 2;
+  margin-top: 69px;
+}
+#contact-page .contact {
+  width: 100%;
+  min-height: 50em;
+  overflow: hidden;
+  background-color: #fff;
+}
+#contact-page .contact-wrp {
+  width: 95%;
+  min-height: 37em;
+  margin: 0;
+  margin-bottom: 1em;
+}
+#contact-page .contact-wrp div {
+  float: left;
+}
+#contact-page .contact-wrp .map-wrp {
+  width: 100%;
+}
+#contact-page .contact-wrp .write {
+  width: 100%;
+}
+#contact-page .contact-wrp .map {
+  width: 100%;
+}
+#contact-page .contact-wrp .map #map {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 2em;
+  background-color: #ddd;
+  box-shadow: 0px 4px 6px 1px #b2acac;
+}
+#contact-page .contact-wrp .map .info-contact {
+  margin-bottom: 50px;
+}
+#contact-page .contact-wrp .map .info-contact .info-contact-wrp {
+  width: 100%;
+}
+#contact-page .contact-wrp .map .info-contact .info {
+  margin: 10px;
+}
+#contact-page .contact-wrp .map .info-contact .info .icon-wrp .icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #f5c41a;
+  box-shadow: 0px 4px 6px 0px #b2acac;
+}
+#contact-page .contact-wrp .map .info-contact .info .icon-wrp {
+  margin-left: 20px;
+}
+#contact-page .contact-wrp .map .info-contact .info .icon-wrp .icon i {
+  color: #000;
+  font-size: 14px;
+}
+#contact-page .contact-wrp .map .info-contact .info .content {
+  font-size: 11px;
+  text-align: right;
+  max-width: 80%;
+}
+#contact-page .contact-wrp .map .info-contact .info .content span {
+  line-height: 20px;
+}
+#contact-page .contact-wrp .write-wrp {
+  width: 100%;
+  box-shadow: 0px 2px 6px 1px #b2acac;
+  position: relative;
+}
+#contact-page .contact-wrp .write-wrp header {
+  width: 100%;
+  height: 4em;
+  margin-top: -30px;
+}
+#contact-page .contact-wrp .write-wrp header .wrp {
+  width: 80%;
+  color: #fff;
+  background-color: blue;
+  box-shadow: 0px 3px 6px 1px #8c8585;
+}
+#contact-page .contact-wrp .write-wrp header .wrp span {
+  font-size: 14px;
+}
+#contact-page .contact-wrp .write-wrp header .wrp i {
+  font-size: 25px;
+  margin-left: 10px;
+}
+#contact-page .contact-wrp .write-wrp form {
+  width: 100%;
+  margin-top: 5em;
+  margin-bottom: 2em;
+}
+#contact-page .contact-wrp .write-wrp form .input-wrp {
+  width: 100%;
+  padding: 0 20px;
+  margin-bottom: 2em;
+}
+#contact-page .contact-wrp .write-wrp form .input-wrp input {
+  width: 90%;
+  height: 2.8em;
+  font-size: 12px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  padding: 6px 8px;
+  line-height: 20px;
+  -webkit-transition: border 0.2s;
+  -moz-transition: border 0.2s;
+  -ms-transition: border 0.2s;
+  -o-transition: border 0.2s;
+  transition: border 0.2s;
+}
+#contact-page .contact-wrp .write-wrp form .input-wrp input:focus {
+  border-bottom: 1px solid blue;
+}
+#contact-page .contact-wrp .write-wrp .input-wrp span {
+  width: 10%;
+}
+#contact-page .contact-wrp .write-wrp span i {
+  font-size: 20px;
+  color: #9d9d9d;
+}
+#contact-page .contact-wrp .write-wrp form .input-wrp textarea {
+  width: 90%;
+  resize: none;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  font-size: 12px;
+  padding: 12px 8px;
+  line-height: 1.6;
+  -webkit-transition: border 0.2s;
+  -moz-transition: border 0.2s;
+  -ms-transition: border 0.2s;
+  -o-transition: border 0.2s;
+  transition: border 0.2s;
+}
+#contact-page .contact-wrp .write-wrp form .input-wrp textarea:focus {
+  border-bottom: 1px solid blue;
+}
+#contact-page .contact-wrp .write-wrp form .input-wrp button {
+  width: 9em;
+  height: 2.3em;
+  background-color: #f5c41a;
+  border-radius: 7px;
+  cursor: pointer;
+  box-shadow: 0px 2px 6px 1px #b2acac;
+  -webkit-transition: background-color 0.2s;
+  -moz-transition: background-color 0.2s;
+  -ms-transition: background-color 0.2s;
+  -o-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+#contact-page .contact-wrp .write-wrp form .input-wrp button:hover,
+#contact-page .contact-wrp .write-wrp form .input-wrp button:focus {
+  background-color: #fff;
+}
+#contact-page .contact-wrp .write-wrp form .input-wrp button span {
+  font-size: 14px;
+  width: auto;
+}
+@media print, screen and (min-width: 400px) {
+  #contact-page .contact-wrp .map .info-contact .info-contact-wrp {
+    max-width: 31em;
+  }
+  #contact-page .contact-wrp .write {
+    width: 25em;
+  }
+}
+@media print, screen and (min-width: 500px) {
+  #contact-page .contact-wrp .map #map {
+    width: 30em;
+  }
+}
+@media print, screen and (min-width: 61.250em) {
+	/*980px*/
+  #contact-page .contact-wrp .map {
+    width: 55%;
+  }
+  #contact-page .contact-wrp .write {
+    width: 45%;
+  }
+  #contact-page .contact-wrp {
+    width: 60em;
+  }
+  #contact-page .contact-wrp .map .info-contact {
+    margin: 0;
+  }
+}
+@media screen and (min-width: 75em) {
+	/*1200px*/
+  #contact-page .contact-wrp {
+    width: 70em;
+  }
+  #contact-page .contact-wrp .write {
+    width: 40%;
+  }
+  #contact-page .contact-wrp .map {
+    width: 60%;
+  }
+  #contact-page .contact-wrp .map #map {
+    width: 80%;
+    height: 400px;
+  }
+  #contact-page .contact-wrp .map .info-contact .info-contact-wrp {
+    max-width: 34em;
+  }
+}

@@ -1,0 +1,429 @@
+@font-face {
+    font-family: 'iransans-bold';
+    src: url('../fonts/IRANSans-Bold.eot') format('eot'), /* IE6�8 */
+    url('../fonts/IRANSans-Bold.woff2') format('woff2'), /* Chrome36+, Opera24+*/
+    url('../fonts/IRANSans-Bold.woff') format('woff'); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'iransans-black';
+    src: url('../fonts/IRANSans-Black.eot?#') format('eot'), /* IE6�8 */
+    url('../fonts/IRANSans-Black.woff2') format('woff2'), /* Chrome36+, Opera24+*/
+    url('../fonts/IRANSans-Black.woff') format('woff'); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'iransans-ultralight';
+    src: url('../fonts/IRANSans-UltraLight.eot') format('eot'), /* IE6�8 */
+    url('../fonts/IRANSans-UltraLight.woff2') format('woff2'), /* Chrome36+, Opera24+*/
+    url('../fonts/IRANSans-UltraLight.woff') format('woff'); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'iransans-light';
+    src: url('../fonts/IRANSans-Light-Expanded.eot') format('eot'), /* IE6�8 */
+    url('../fonts/IRANSans-Light-Expanded.woff2') format('woff2'), /* Chrome36+, Opera24+*/
+    url('../fonts/IRANSans-Light-Expanded.woff') format('woff'); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'iransans';
+    src: url('../fonts/IRANSANSExpanded.eot') format('eot'), /* IE6�8 */
+    url('../fonts/IRANSANSExpanded.woff2') format('woff2'), /* Chrome36+, Opera24+*/
+    url('../fonts/IRANSANSExpanded.woff') format('woff'); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    font-weight: normal;
+}
+/*===================================================================================*/
+/* Star Main */
+#main-site {
+    /* margin-bottom: 2em; */
+    z-index: 2;
+}
+#main-site .home-slider {
+    width: 100%;
+    min-height: 40em;
+    position: relative;
+    box-shadow: 0 10px 20px rgba(26, 26, 26, 0.5);
+    z-index: 3;
+}
+/* ============================================== */
+#main-site .hero1,
+#main-site .hero2,
+#main-site .hero3 {
+    width: 100%;
+    min-height: 30em;
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+    z-index: 2;
+}
+.hero1 .hero-wrp {
+  width: 100%;
+  margin: 5em auto;
+}
+.hero2 .hero-wrp .header-wrp,
+.hero3 .hero-wrp .header-wrp,
+.blog-site .blog-container .header-wrp {
+  background-color: #f5c41a;
+  -webkit-transform: translateY(-32px);
+  -moz-transform: translateY(-32px);
+  -ms-transform: translateY(-32px);
+  transform: translateY(-32px);
+  padding: 10px 20px;
+  border-radius: 0 0 8px 10px;
+  box-shadow: 0px 1px 15px -2px #555951;
+}
+.hero2 .hero-wrp,
+.hero3 .hero-wrp {
+    width: 100%;
+    margin: 2em auto;
+}
+.hero1 .hero-wrp h2 {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+.hero1 .hero-wrp .underline {
+  content: "";
+  margin-bottom: 2em;
+  background-color: #ddd;
+  width: 13.9em;
+  height: 2px;
+}
+.hero2 .hero-wrp h2,
+.hero3 .hero-wrp h2,
+.blog-site .blog-container h2
+ {
+  text-align: center;
+  font-size: 12px;
+}
+.hero1 .hero-wrp .content,
+.hero2 .hero-wrp .content,
+.hero3 .hero-wrp .content {
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 0;
+}
+.hero1 .hero-wrp .content .content-wrp,
+.hero2 .hero-wrp .content .content-wrp,
+.hero3 .hero-wrp .content .content-wrp {
+    float: right;
+    margin-bottom: 4em;
+}
+.hero1 .hero-wrp .content .content-wrp p,
+.hero2 .hero-wrp .content .content-wrp p {
+    color: #454545;
+    font-size: 12px;
+    line-height: 30px;
+    word-spacing: -1px;
+    text-align: justify;
+    direction: rtl;
+    font-family: 'iransans-light';
+}
+.hero1 .hero-wrp .content .content-wrp .header {
+    text-align: right;
+    margin-bottom: 13px;
+}
+.hero1 .hero-wrp .content .content-wrp .header h4 {
+    font-size: 14px;
+    color: #1a1a1a;
+}
+.hero1 .hero-wrp .content .content-wrp .header i {
+    font-size: 2em;
+    color: #f5c41a;
+    margin-left: 20px;
+}
+/* ================================================================ */
+#main-site .parallax {
+    width: 100%;
+    min-height: 25em;
+    background-image: url('../img/zheltye_polosy_na_serom_fone_skachat_besplatno_1920x1200.jpg');
+    background-attachment: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+}
+.parallax .parallax-wrp {
+    width: 100%;
+}
+.parallax .parallax-wrp p {
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 33px;
+    line-height: 30px;
+    text-align: center;
+    direction: rtl;
+}
+.parallax .parallax-wrp .btn {
+    width: 7em;
+    height: 2.1em;
+    background-color: #f5c41a;
+    border-radius: 7px;
+    cursor: pointer;
+    -webkit-transition-duration: .3s;
+    -moz-transition-duration: .3s;
+    transition-duration: 0.3s;
+}
+.parallax .parallax-wrp .btn:hover,
+.parallax .parallax-wrp .btn:active {
+    background-color: #fff;
+}
+.parallax .parallax-wrp .btn span {
+    color: #000;
+    font-size: 12px;
+    margin: 0;
+}
+/* ======================================================================================= */
+.hero3 .hero-wrp .content .content-wrp {
+    width: 16em;
+    min-height: 10em;
+    margin: 0px 10px 25px 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 3px 12px 0px #000;
+}
+.hero3 .hero-wrp .content .content-wrp img {
+    width: 100%;
+    height: auto;
+}
+.hero3 .hero-wrp .content .content-wrp a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    -webkit-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    transition-duration: 0.2s;
+}
+.hero3 .hero-wrp .content .content-wrp a span {
+    color: #fff;
+    font-size: 17px;
+    -webkit-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    transition-duration: 0.2s;
+}
+.hero3 .hero-wrp .content .content-wrp a:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.hero3 .hero-wrp .content .content-wrp a:hover span {
+    font-size: 22px;
+}
+/* ================================================ */
+
+/* =================================================== */
+#main-site .news {
+    width: 100%;
+    min-height: 31em;
+    z-index: 2;
+    background-image: url('../img/agent-search.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #091941; */
+}
+#main-site .news .news-wrp {
+    width: 100%;
+}
+#main-site .news .news-wrp .content {
+    width: 100%;
+}
+#main-site .news .news-wrp .content .content-wrp1 {
+    width: 100%;
+    margin-bottom: 18px;
+}
+#main-site .news .news-wrp .content .content-wrp1 h4 {
+    color: #fff;
+    font-size: 16px;
+}
+#main-site .news .news-wrp .content .content-wrp1 i {
+    color: #68ff00;
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+#main-site .news .news-wrp p {
+    color: #fffc;
+    text-align: center;
+    font-size: 11px;
+    margin-bottom: 20px;
+}
+#main-site .news .news-wrp .content .content-wrp2 input {
+    width: 17em;
+    height: 2em;
+    padding: 6px 8px;
+    line-height: 20px;
+    margin-left: -3px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    z-index: 2;
+}#main-site .news .news-wrp .content .content-wrp2 {
+    height: 2em;
+}
+#main-site .news .news-wrp .content .content-wrp2 button {
+    width: 5em;
+    height: 2em;
+    background: #f5c41a;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    z-index: 3;
+}
+#main-site .news .news-wrp .content .content-wrp2 button label {
+    font-size: 12px;
+    color: #000;
+}
+/* ======================================================================= */
+/* End Main */
+/* START FOOTER */
+#footer-site {
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    background-color: #1b1b1b;
+}
+#footer-site::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../img/2.png') no-repeat 50% 0;
+    content: '';
+}
+#footer-site .footer-wrp {
+    width: 90%;
+    z-index: 2;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+#footer-site .footer-wrp .top {
+    width: 100%;
+    height: 90%;
+    padding-bottom: 50px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #d6d6d6;
+}
+#footer-site .footer-wrp .bottom {
+    width: 100%;
+    height: 10%;
+}
+#footer-site .footer-wrp .top .col-1 {
+    float: right;
+    width: 100%;
+    padding: 0 15px;
+    margin-bottom: 25px;
+}
+#footer-site .footer-wrp .top .col-1 h4 {
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #f5c41a;
+}
+#footer-site .footer-wrp .top .col-1 p {
+    color: #fff;
+    font-size: 10px;
+    margin-bottom: 20px;
+    line-height: 22px;
+    padding: 0;
+    direction: rtl;
+}
+#footer-site .footer-wrp .top .col-1 .input-wrp input {
+    width: 22em;
+    height: 100%;
+    font-size: 13px;
+    border: 1px solid #ddd;
+    padding: 6px 8px;
+    line-height: 20px;
+    margin-left: -5px;
+    z-index: 1;
+}
+#footer-site .footer-wrp .top .col-1 .input-wrp {
+    height: 2em;
+}
+#footer-site .footer-wrp .top .col-1 .input-wrp span {
+    width: 2em;
+    height: 100%;
+    background-color: #f5c41a;
+    cursor: pointer;
+    z-index: 2;
+}
+#footer-site .footer-wrp .top .col-1 .input-wrp span i {
+    font-size: 20px;
+    color: #000;
+}
+/* ================ */
+#footer-site .footer-wrp .top .col-2 {
+    display: none;
+    width: 15em;
+    float: right;
+    padding: 0 20px;
+    position: absolute;
+    left: 50%;
+    top: 47px;
+    margin-left: auto;
+    margin-right: auto;
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+#footer-site .footer-wrp .top .col-2 .list {
+    float: right;
+    /* width: 6em; */
+    text-align: right;
+    color: #f5c41a;
+}
+#footer-site .footer-wrp .top .col-2 .list:last-child {
+  margin-left: 3em;
+}
+#footer-site .footer-wrp .top .col-2 .list h6 {
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+#footer-site .footer-wrp .top .col-2 .list li {
+    line-height: 26px;
+}
+#footer-site .footer-wrp .top .col-2 .list li a {
+    font-size: 11px;
+    color: #fff;
+    text-decoration: none;
+}
+#footer-site .footer-wrp .top .col-2 .list li a:hover {
+    color: #f5c41a;
+}
+#footer-site .footer-wrp .top .col-3 {
+    float: left;
+    padding: 0 20px;
+    margin-top: 1em;
+}
+#footer-site .footer-wrp .top .col-3 .logo {
+    margin-bottom: 2em;
+}
+#footer-site .footer-wrp .top .col-3 .logo img {
+    width: 10em;
+}
+#footer-site .footer-wrp .top .col-3 .social ul {
+  width: 10em;
+}
+#footer-site .footer-wrp .top .col-3 .social li {
+    margin: 0 1em;
+}
+#footer-site .footer-wrp .top .col-3 .social li a {
+    font-size: 1.2em;
+    color: #888;
+}
+#footer-site .footer-wrp .top .col-3 .social li a:hover {
+    color: #f5c41a;
+}
+/* ============== */
+#footer-site .footer-wrp .bottom span {
+    font-size: 10px;
+    color: #888;
+}
+/* END FOOTER */
+/* =========================================== */
+/* SIGNIN PAGE */

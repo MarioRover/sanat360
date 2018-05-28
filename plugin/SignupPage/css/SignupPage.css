@@ -1,0 +1,105 @@
+#header-site {
+	background-color: #000;
+}
+#signup-page {
+	width: 100%;
+	min-height: 50em;
+	background-image: url('../../../img/factory.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	background-position: center center;
+}
+#signup-page .signup-wrp {
+	width: 100%;
+	height: 100%;
+}
+#signup-page .choice {
+	width: 100%;
+	margin: 3em auto;
+	overflow: hidden;
+}
+#signup-page .choice .user {
+	width: 25em;
+	height: 30em;
+	padding: 30px 20px;
+	margin: 2em 1em;
+	background-color: rgba(255,255,255,0.8);
+}
+#signup-page .choice .seller {
+	width: 25em;
+	height: 30em;
+	padding: 30px 20px;
+	margin: 2em 1em;
+	background-color: rgba(0,0,0,0.8);
+}
+#signup-page .choice .user h4 {
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 2em;
+}
+#signup-page .choice .user p {
+	color: #454545;
+	font-size: 12px;
+	line-height: 30px;
+	text-align: center;
+	direction: rtl;
+	margin-bottom: 2em;
+}
+#signup-page .choice .icon {
+	width: 100%;
+	margin-bottom: 2em;
+}
+#signup-page .choice .user .icon i {
+	font-size: 5em;
+}
+#signup-page .choice .seller .icon i {
+	font-size: 5em;
+	color: #fff;
+}
+#signup-page .choice .user .btn {
+	width: 100%;
+}
+#signup-page .choice .user .btn a {
+	width: 50%;
+	height: 2.2em;
+	background-color: #7171ea;
+	background: linear-gradient(#42a1ec,#0070c9);
+	border: 1px solid #07c;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+#signup-page .choice .user .btn a span {
+	color: #fff;
+}
+#signup-page .choice .seller h4 {
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 2em;
+	color: #fff;
+}
+#signup-page .choice .seller p {
+	color: #fff;
+	font-size: 12px;
+	line-height: 30px;
+	text-align: center;
+	direction: rtl;
+	margin-bottom: 2em;
+}
+#signup-page .choice .seller .btn {
+	width: 100%;
+}
+#signup-page .choice .seller .btn a {
+	width: 50%;
+	height: 2.2em;
+	background-color: #7171ea;
+	background: linear-gradient(#42a1ec,#0070c9);
+	border: 1px solid #07c;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+#signup-page .choice .seller .btn a span {
+	color: #fff;
+}

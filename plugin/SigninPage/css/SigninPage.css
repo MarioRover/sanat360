@@ -1,0 +1,135 @@
+#signin-page {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../img/signin-wallpaper.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#signin-page .signin-wrp {
+    width: 100%;
+    height: 100%;
+}
+#signin-page .form-wrp {
+    width: 100%;
+    min-height: 100%;
+    padding: 32px 0px;
+    background-color: rgba(255,255,255,0.4);
+}
+#signin-page .form-wrp .header {
+    width: 100%;
+}
+#signin-page .form-wrp .header a {
+    margin-bottom: 15px;
+}
+#signin-page .form-wrp .header a img {
+    width: 9em;
+}
+#signin-page .form-wrp form {
+    width: 80%;
+}
+#signin-page .form-wrp form input[type="text"],
+#signin-page .form-wrp form input[type="password"] {
+    width: 100%;
+    height: 2.5em;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #fff;
+    padding: 0px 12px;
+    margin-bottom: 2em;
+    border: 1px solid rgba(255,255,255,.6);
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    background-color: transparent;
+}
+#signin-page .form-wrp form input[type="text"]:focus,
+#signin-page .form-wrp form input[type="password"]:focus {
+    border: 1px solid #bd64f0;
+}
+#signin-page .form-wrp form .checkbox {
+    margin-bottom: 30px;
+}
+#signin-page .form-wrp form .checkbox .checkbox-wrp {
+
+}
+#signin-page .form-wrp form .checkbox .checkbox-wrp input[type="checkbox"],
+#signin-page .form-wrp form .choice input[type="radio"] {
+    margin-left: 7px;
+    cursor: pointer;
+}
+#signin-page .form-wrp form .checkbox .checkbox-wrp span {
+    font-size: 10px;
+    color: #fff;
+}
+#signin-page .form-wrp form .choice {
+    margin-bottom: 20px;
+}
+#signin-page .form-wrp form .choice .choice-wrp {
+    width: 40%;
+}
+#signin-page .form-wrp form .choice span {
+    font-size: 12px;
+    color: #fff;
+}
+#signin-page .form-wrp form button {
+    width: 100%;
+    height: 2.2em;
+    background-color: #7171ea;
+    background: linear-gradient(#42a1ec,#0070c9);
+    border: 1px solid #07c;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+#signin-page .form-wrp form button:hover {
+    background: linear-gradient(#51a9ee,#147bcd);
+    border-color: #1482d0;
+}
+#signin-page .form-wrp form button span {
+    font-size: 15px;
+    line-height: 1.52947;
+    font-weight: 400;
+    letter-spacing: -.021em;
+    color: #fff;
+}
+#signin-page .form-wrp .help {
+    width: 100%;
+}
+#signin-page .form-wrp .help a {
+
+}
+#signin-page .form-wrp .help a span {
+    color: #fff;
+    font-size: 10px;   
+}
+#signin-page .form-wrp .help a span:hover,#signin-page .form-wrp .help a span:active {
+    color: #0070c9;
+}
+input::-webkit-input-placeholder { /* WebKit browsers */
+  line-height: 3em;
+  font-size: 11px;
+  text-align: right;
+  color: #fff;
+}
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  line-height: 3em;
+  font-size: 11px;
+  text-align: right;
+  color: #fff;
+}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+  line-height: 3em;
+  font-size: 11px;
+  text-align: right;
+  color: #fff;
+}
+input:-ms-input-placeholder { /* Internet Explorer 10+ */
+  line-height: 3em;
+  font-size: 11px;
+  text-align: right;
+  color: #fff;
+}
