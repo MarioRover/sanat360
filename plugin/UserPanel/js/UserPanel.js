@@ -1,16 +1,4 @@
-let treeView = document.querySelectorAll(`.siderbar-menu .treeview`);
 
-// treeView.forEach(function(tree , key) {
-//   tree.addEventListener(`click` , function() {
-    
-//     for(let i = 0 ; i < treeView.length ; i++) {
-//       if(treeView[i].classList.contains(`active`)) {
-//         treeView[i].classList.remove(`active`);
-//       }
-//     }
-//     tree.classList.add(`active`);
-//   })
-// })
 // Allow Only Numeric input
 $(document).ready(function () {
   $(".allow-only-numeric").keydown(function (e) {
@@ -33,3 +21,42 @@ $(document).ready(function () {
     }
   });
 });
+// Hidden & Show Sidebar 
+$(document).ready(function() {
+  let mobileIcon = $(`#mobile-icon`);
+  let siderbarName = $(`.main-sidebar .user-panel .user-panel-wrap span`);
+  let headerSidebar = $(`.siderbar-menu .header`);
+  let sidebarSpan = $(`.siderbar-menu .treeview a span`);
+  let activeTree = $(`.siderbar-menu .treeview.active`);
+  let sidebar = $(`.main-sidebar`);
+  let mainContent = $(`.main-content`);
+  let treeView = $(`.siderbar-menu .treeview a`);
+  let treeViewActive = $(`.siderbar-menu .treeview.active a`);
+
+  $(mobileIcon).click(function () { 
+// Show Sidebar    
+    if($(mobileIcon).hasClass(`hidden-navbar`)){
+      console.log(`have class`);
+      $(siderbarName).css({ display: `block` });
+      $(headerSidebar).css({ display: `block` });
+      $(sidebarSpan).css({ display: `block` });
+      $(mobileIcon).removeClass(`hidden-navbar`);
+      $(sidebar).css('width', `185px`);
+      $(mainContent).css(`margin-right`, `185px`);
+      $(treeView).css(`justify-content`, `flex-end`);
+      $(treeViewActive).css(`margin-right`, `10px`);
+// Hidden Sidebar
+    } else if (!$(mobileIcon).hasClass(`hidden-navbar`)){
+      console.log(`not have class`);
+      $(siderbarName).css({ display: `none` });
+      $(headerSidebar).css({ display: `none` });
+      $(sidebarSpan).css({ display: `none` });
+      $(activeTree).css({ border: `none` });
+      $(mobileIcon).addClass(`hidden-navbar`);
+      $(sidebar).css('width', `50px`);
+      $(mainContent).css(`margin-right`, `50px`);
+      $(treeView).css(`justify-content`, `center`);
+      $(treeViewActive).css(`margin-right`, `7px`);
+    }
+  });
+})
