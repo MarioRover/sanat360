@@ -38,6 +38,10 @@
   background-color: #fff;
   direction: rtl;
   margin-right: 185px;
+  -webkit-transition: margin-right .3s ease-in-out,width .3s ease-in-out;
+  -moz-transition: margin-right .3s ease-in-out,width .3s ease-in-out;
+  -ms-transition: margin-right .3s ease-in-out,width .3s ease-in-out;
+  -o-transition: margin-right .3s ease-in-out,width .3s ease-in-out;
   transition: margin-right .3s ease-in-out,width .3s ease-in-out;
 }
 .content-header {
@@ -202,6 +206,10 @@
   background-color: #222d32;
   position: absolute;
   right: 0;
+  -webkit-transition: transform .3s ease-in-out,width .3s ease-in-out;
+  -moz-transition: transform .3s ease-in-out,width .3s ease-in-out;
+  -ms-transition: transform .3s ease-in-out,width .3s ease-in-out;
+  -o-transition: transform .3s ease-in-out,width .3s ease-in-out;
   transition: transform .3s ease-in-out,width .3s ease-in-out;
 }
 .main-sidebar .user-panel {
@@ -451,6 +459,78 @@
     margin-right: 20px;
   }
 }
+/* ------------------------------------------------ */
+/* Dashboard */
+.dashboard {
+  width: 100%;
+} 
+.dashboard .info-box {
+  min-height: 90px;
+  background: #fff;
+  width: 100%;
+  float: right;
+  border-radius: 2px;
+  margin-bottom: 15px;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.info-box .info-box-icon {
+  width: 7em;
+  height: 100%;
+  cursor: pointer;
+}
+.info-box .info-box-icon i {
+  font-size: 2.3em;
+  color: #fff;
+}
+.info-box-wrap {
+  width: 95%;
+  box-shadow: 0px 2px 6px 1px #d2d2d2;
+}
+.info-box .info-box-content {
+  padding: 10px;
+  width: 100%;
+} 
+.info-box-text {
+  font-size: 13px;
+  font-family: 'iransans-light';
+  color: #333;
+  margin-bottom: 10px;
+}
+.info-box-number {
+  font-size: 20px;
+  font-family: 'iransans-bold';
+  color: #333;
+}
+.info-box-icon.info {
+  background-color: #00a65a;
+}
+.info-box-icon.favorite {
+  background-color: #f5c41a;
+}
+.info-box-icon.message {
+  background-color: #00c0ef;
+}
+/* Querys */
+@media print, screen and (min-width: 48em) {
+  /*768px*/
+  .dashboard .info-box {
+    width: 18em;
+  }
+  .info-box .info-box-icon {
+    width: 6em;
+  }
+}
+@media print, screen and (min-width: 61.250em) {
+  /*980px*/
+}
+@media screen and (min-width: 75em) {
+  /*1200px*/
+}
+/* ------------------------ */
 /* Querys */
 @media print, screen and (min-width: 48em) {
   /*768px*/
