@@ -31,13 +31,27 @@
 .notifi-panel li {
   margin-right: 10px;
 }
-
+.main-content .content-navbar #mobile-icon-responsive {
+  display: block;
+}
+.main-content .content-navbar #mobile-icon {
+  display: none;
+}
+@media print, screen and (min-width: 48em) {
+  /*768px*/
+}
+@media print, screen and (min-width: 61.250em) {
+  /*980px*/
+}
+@media screen and (min-width: 75em) {
+  /*1200px*/
+}
 /* Main Content User Panel */
 .main-content {
   width: 100%;
   background-color: #fff;
   direction: rtl;
-  margin-right: 185px;
+  margin-right: 0px;
   -webkit-transition: margin-right .3s ease-in-out,width .3s ease-in-out;
   -moz-transition: margin-right .3s ease-in-out,width .3s ease-in-out;
   -ms-transition: margin-right .3s ease-in-out,width .3s ease-in-out;
@@ -47,6 +61,7 @@
 .content-header {
   width: 100%;
   padding: 15px;
+  margin-bottom: 1.5em;
   border-bottom: 1px solid #ddd;
   background-color: transparent;
 }
@@ -200,7 +215,7 @@
 }
 /* Sidebar User Panel */
 .main-sidebar {
-  width: 185px;
+  width: 0px;
   min-height: 100%;
   z-index: 1;
   background-color: #222d32;
@@ -517,6 +532,9 @@
 /* Querys */
 @media print, screen and (min-width: 48em) {
   /*768px*/
+  .dashboard {
+    width: 42em;
+  }
   .dashboard .info-box {
     width: 18em;
   }
@@ -529,15 +547,138 @@
 }
 @media screen and (min-width: 75em) {
   /*1200px*/
+  .dashboard {
+    width: 54em;
+  }
 }
-/* ------------------------ */
-/* Querys */
+/* -------------------------------- */
+/* Messanger */
+.msg {
+  width: 95%;
+  height: 100%;
+  box-shadow: 0px 2px 6px 1px #d2d2d2;
+}
+.msg .msg-header {
+  width: 100%;
+  padding: 0 15px;
+  position: relative;
+}
+.msg .msg-header .msg-header-icon {
+  width: 55px;
+  height: 48px;
+  position: absolute;
+  top: -14px;
+  left: 15px;
+  border-radius: 3px;
+  background-color: #f5c41a;
+  border-radius: 7px;
+  float: left;
+  box-shadow: 0 4px 20px 0 rgba(0,0,0,.14),0 7px 10px -5px rgba(233,30,99,.4);
+}
+.msg .msg-header .msg-header-icon i {
+  color: #fff;
+  font-size: 24px;
+}
+.msg .msg-header h4 {
+  margin: 15px 0px;
+  color: #3c4858;
+  font-size: 13px;
+}
+.msg .msg-content {
+  width: 100%;
+  padding: .9375rem 20px;
+  position: relative;
+}
+.msg .msg-content .msg-wrap {
+ display: block;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.msg .table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  border-collapse: collapse;
+  font-family: 'iransans-ultralight';
+  background-color: transparent;
+  color: #333;
+}
+.msg .table thead {
+  color: #9c27b0 !important;
+}
+.msg .table thead tr th,
+.msg .table tbody td {
+  padding: 12px 8px;
+  text-align: center;
+  font-size: 12px;
+  vertical-align: middle; 
+}
+.msg .table tbody tr {
+ border-top: 1px solid rgba(0,0,0,.06);
+}
+.msg .table tbody {
+  font-family: 'iransans-ultralight';
+}
+.msg .table tbody td .btn {
+  width: 6em;
+  height: 2em;
+  margin: 0 auto;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.msg .table tbody td .btn.see {
+  background-color: #1867f0;
+}
+.msg .table tbody td .btn.see:hover {
+  background-color: #124fb9;
+}
+.msg .table tbody td .btn.delete {
+  background-color: #ed0000;
+}
+.msg .table tbody td .btn.delete:hover {
+  background-color: #cf1717;
+}
+.msg .table tbody td .btn span {
+  font-family: 'iransans-light';
+  color: #fff;
+  font-size: 11px;
+}
 @media print, screen and (min-width: 48em) {
   /*768px*/
+  .main-content .content-navbar #mobile-icon-responsive {
+    display: none;
+  }
+  .main-content .content-navbar #mobile-icon {
+    display: block;
+  }
+  .main-sidebar {
+    width: 185px;
+  }
+  .main-content {
+    margin-right: 185px;
+  }
+  .msg {
+    width: 43em;
+  }
+  .main-content .content-navbar {
+    padding: 15px 2% 15px 4%;
+  }
 }
 @media print, screen and (min-width: 61.250em) {
   /*980px*/
 }
+@media screen and (min-width: 85.375em) {
+	/* 1366px */
+	.main-content .content-navbar {
+    padding: 15px 2% 15px 6%;
+  }
+}
 @media screen and (min-width: 75em) {
   /*1200px*/
+  .msg {
+    width: 50em;
+  }
 }
+/* ------------------------ */

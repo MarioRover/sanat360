@@ -60,3 +60,28 @@ $(document).ready(function() {
     }
   });
 })
+// Hidden & Show Sidebar Responsive
+$(document).ready(function () {
+  let mobileIcon = $(`#mobile-icon-responsive`);
+  let sidebar = $(`.main-sidebar`);
+  let mainContent = $(`.main-content`);
+  $(mobileIcon).addClass(`hidden-navbar-responsive`);
+
+  $(mobileIcon).click(function() {
+    console.log(`click`);
+    // Show Sidebar
+    if ($(mobileIcon).hasClass(`hidden-navbar-responsive`)) {
+      console.log(`have class`);
+      $(mainContent).css(`margin-right`, `185px`);
+      $(sidebar).css('width', `185px`);
+      $(mobileIcon).removeClass(`hidden-navbar-responsive`);
+    } else if (!$(mobileIcon).hasClass(`hidden-navbar-responsive`)) {
+      // Hidden Sidebar
+      console.log(`not have class`);
+      $(sidebar).css('width', `0px`);
+      $(mainContent).css(`margin-right`, `0px`);
+      $(mobileIcon).addClass(`hidden-navbar-responsive`);
+    }
+  })
+
+});
