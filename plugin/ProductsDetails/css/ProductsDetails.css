@@ -1,0 +1,114 @@
+#header-site {
+  background-color: #000;
+}
+#product-detail {
+  width: 100%;
+  min-height: 50em;
+  overflow: hidden;
+  background-color: #eeeff1;
+  z-index: 2;
+  margin-top: 50px;
+}
+.product-wrap {
+  width: 100%;
+  margin-top: 3em;
+}
+.pro-review {
+  width: 50em;
+  height: 30em;
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0px 4px 6px 1px #b2acac;
+} 
+.pro-review .pro-slider {
+  width: 26em;
+  position: relative;
+  padding-left: 15px;
+}
+.pro-review .pro-slider .img-wrap {
+  overflow: hidden;
+  width: 23em;
+  height: 20em;
+  position: absolute;
+  top: -2em;
+  box-shadow: 8px 12px 23px 0px rgba(0, 0, 0, 0.75);
+}
+.pro-review .pro-slider .img-wrap img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.pro-review .pro-content {
+  width: 28em;
+}
+.pro-content .pro-header {
+  width: 100%;
+  padding: 10px;
+  background: #f5f6f7;
+}
+.pro-content .pro-header h4 {
+  float: right;
+  color: #4B4B4B;
+  font-size: 14px;
+}
+.pro-content .pro-header .rate{
+  float: left;
+}
+.pro-content .pro-header .rate-pro i {
+  font-size: 14px;
+  color: #f5c41a;
+}
+.pro-content .content {
+  padding: 10px 15px;
+}
+.pro-slider .thumbs {
+  position: absolute;
+  bottom: 0;
+  width: 23em;
+  margin: 1.875rem 0;
+}
+.pro-slider .thumbs i {
+  position: absolute;
+  font-size: 2.5em;
+  color: #999;
+  opacity: 0.4;
+  cursor: pointer;
+  transition-duration: .5s;
+}
+.pro-slider .thumbs i.fa-caret-right {
+  right: 0;
+}
+.pro-slider .thumbs i.fa-caret-left {
+  left: 0;
+}
+.pro-slider .thumbs i.fa-caret-left:hover,
+.pro-slider .thumbs i.fa-caret-right:hover {
+  opacity: 1;
+}
+.pro-slider .thumbs .pics-thumbs {
+  width: 76%;
+  min-height: 5.375rem;
+  overflow-x: auto;
+  flex-flow: row nowrap !important;
+}
+.pro-slider .thumbs .pics-thumbs .demo {
+  border: 1px solid aquamarine;
+}
+.pro-slider .thumbs .pics-thumbs .demo:hover,
+.pro-slider .thumbs .pics-thumbs .demo.active {
+  opacity: 1;
+}
+.pro-slider .thumbs .pics-thumbs .demo {
+  float: left;
+padding: 4px;
+margin: 0 5px;
+border-radius: 4px;
+cursor: pointer;
+height: 75px;
+opacity: 0.8;
+transition-duration: .5s;
+}
+.fa-caret-right:hover {
+    opacity: 1;
+}

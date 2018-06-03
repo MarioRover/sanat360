@@ -10,7 +10,7 @@
     <meta name="keywords" content="on scroll, animate, header, transition, css3, 3d, effect, inspiration" />
     <meta name="author" content="Codrops" />
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <title>Sanat360 | Firstar Group</title>
+    <title>Sanat360 | Product Details</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/setting.css">
     <script src="plugin/Jquery-3.3.1.js"></script>
@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="plugin/HEADER/css/default.css">
     <link rel="stylesheet" href="plugin/HEADER/css/component.css">
     <link rel="stylesheet" type="text/css" href="plugin/FooterAccordion/css/accordion.css">
-    
+    <link rel="stylesheet" type="text/css" href="plugin/ProductsDetails/css/ProductsDetails.css">
     <link rel="stylesheet" href="css\responsive.css">
 </head>
 
@@ -39,10 +39,10 @@
                     <li>
                         <a href="index.html">صفحه نخست</a>
                     </li>
-                    <li>
+                    <li class="active">
                         <a href="product-sub.html">محصولات</a>
                     </li>
-                    <li class="active">
+                    <li>
                         <a href="company-category.html">شرکت ها</a>
                     </li>
                     <li>
@@ -104,8 +104,47 @@
     <!-- HEADER END -->
 
     <!-- MAIN START -->
-    <main id="company-details">
-       
+    <main id="product-detail">
+        <div class="product-wrap grid align-center-middle">
+            <div class="pro-review grid-x-no">
+                <div class="pro-slider">
+                    <div class="img-wrap">
+                        <img src="img/sample-product.jpg" alt="">
+                    </div>
+                    <div class="thumbs grid-x-no align-center-middle">
+                        <i class="fas fa-caret-left"></i>
+                        <div class="pics-thumbs grid-x align-middle">
+                            <img class="demo" src="img/2.jpg" alt="">
+                            <img class="demo" src="img/photo-1429043794791-eb8f26f44081.jpeg" alt="">
+                            <img class="demo" src="img/2.jpg" alt="">
+                            <img class="demo" src="img/photo-1429043794791-eb8f26f44081.jpeg" alt="">
+                            <img class="demo" src="img/2.jpg" alt="">
+                            <img class="demo" src="img/photo-1429043794791-eb8f26f44081.jpeg" alt="">
+                        </div>
+                        <i class="fas fa-caret-right"></i>
+                    </div>
+                </div>
+                <div class="pro-content">
+                    <div class="pro-header">
+                        <h4>نام محصول</h4>
+                        <div class="rate-pro">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                    </div>
+                    <div class="content">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum fuga quidem sunt eos, ex nobis fugit veniam perferendis et numquam. Et similique corporis, nobis quam facere quis placeat repellat rem!
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum quibusdam nulla tempora aliquam illum possimus sed enim optio nisi rem hic obcaecati suscipit doloremque modi mollitia, nesciunt repudiandae dolorem cupiditate!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, eveniet. Reprehenderit ipsum alias sit a unde quae debitis perspiciatis eveniet non officiis similique minus dolorem, cupiditate repudiandae laborum maxime at.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       <script src="plugin/ProductsDetails/js/ProductsDetails.js"></script>
     </main>
     <!-- MAIN END -->
     <!-- FOOTER START -->
