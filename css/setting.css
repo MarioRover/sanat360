@@ -537,6 +537,10 @@ figure {
   display: flex;
   flex-flow: row nowrap;
 }
+.grid-x-no-re {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+}
 .grid-y {
   display: flex;
   flex-flow: column wrap;
