@@ -66,3 +66,8 @@ tabs.forEach(function(tab , tabIndex) {
     // 
   })
 })
+// Clear Input
+$(document).ready(function () {
+ $(`input`).val(``); 
+ $(`textarea`).val(``);
+});

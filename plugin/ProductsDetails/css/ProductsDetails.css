@@ -10,21 +10,21 @@
   margin-top: 50px;
 }
 .product-wrap {
-  width: 50em;
+  width: 55em;
   margin: 3em 0;
 }
 .pro-review {
   width: 100%;
-  height: 24em;
+  min-height: 30em;
   margin-bottom: 2em;
   position: relative;
   background-color: #fff;
   box-shadow: 0px 4px 6px 1px #b2acac;
 } 
 .pro-review .pro-slider {
-  width: 26em;
+  width: 24em;
   position: relative;
-  padding-left: 15px;
+  padding-right: 15px;
 }
 .pro-review .pro-slider .view {
   overflow: hidden;
@@ -46,7 +46,7 @@
   right: 0;
 }
 .pro-review .pro-content {
-  width: 28em;
+  width: 31em;
 }
 .pro-content .pro-header {
   width: 100%;
@@ -139,7 +139,7 @@ transition-duration: .5s;
 .pro-content .content .btn {
   position: absolute;
   bottom: 59px;
-  right: 15px;
+  left: 15px;
 }
 .pro-content .content .btn .btn-wrap {
   flex-flow: row-reverse;
@@ -211,11 +211,149 @@ transition-duration: .5s;
 .pro-wrap .tab-content {
   background-color: #fff;
   box-shadow: 0px 4px 6px 1px #b2acac;
-  min-height: 24em;
+  min-height: 30em;
+  direction: rtl;
 }
 .pro-wrap .tab-content section {
   display: none;
 }
 .pro-wrap .tab-content section.active {
   display: block;
+}
+/* --------------------------------- */
+/* Massenger */
+.massenger {
+  padding: 25px 15px;
+}
+.massenger .create-comment {
+  
+}
+.massenger h4 {
+  margin-bottom: 1.5em;
+  font-size: 14px;
+}
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  background-color: #fff;
+  border: 1px solid #b1b1b1;
+  border-radius: 50%;
+  position: relative;
+}
+.profile-pic img {
+  -moz-force-broken-image-icon: 1;
+  border-radius: 50%;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  border: 0;
+}
+.create-comment .input-wrap {
+  width: 30em;
+  margin-top: 9px;
+}
+.create-comment .input-wrap input:first-child {
+  margin-left: 10px;
+}
+.create-comment .input-wrap .grid-x {
+  margin-bottom: 10px; 
+}
+input,textarea {
+  color: #24292e;
+  font-size: 10px;
+  background-color: #fafbfc;
+  padding: 6px 8px;
+  line-height: 20px;
+  vertical-align: middle;
+  border: 1px solid #d1d5da;
+  outline: 0;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 2px rgba(27,31,35,0.075);
+}
+.input-comment {
+  width: 23.5em;
+  height: 34px;
+}
+input:focus,textarea:focus {
+  background-color: #fff;
+  border: 1px solid #2188ff;
+  outline: none;
+  box-shadow: inset 0 1px 2px rgba(27,31,35,0.075),
+  0 0 0 0.1em rgba(3,102,214,0.3);
+}
+.textarea-comment {
+  width: 100%;
+  height: 15em;
+  font-size: 11px;
+  resize: none;
+  margin-bottom: 1em;
+}
+.create-comment .input-wrap .btn-wrap {
+  width: 100%;
+}
+.create-comment .input-wrap .btn-wrap .btn {
+  width: 7em;
+  height: 2em;
+  margin-left: 2em;
+  background-color: #1867f0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.create-comment .input-wrap .btn-wrap .btn:hover {
+  background-color: #124fb9;
+}
+.create-comment .input-wrap .btn-wrap .btn span {
+  font-size: 12px;
+  font-family: 'iransans-light';
+  color: #fff;
+}
+ 
+.massenger .clear {
+  clear: both;
+  content: " ";
+  border-top: 1px solid #efdede;
+  margin: 20px 0;
+}
+.comments .comment-box {
+  width: 100%;
+}
+.comment {
+  width: 34em;
+}
+.comment .content {
+  width: 30em;
+} 
+.comment .content header {
+  height: 3.2em;
+}
+.comment .content header .username {
+  font-size: 11px;
+  margin-left: 5px;
+}
+.comment .content header .subject { 
+  font-size: 9px;
+  color: #968d8d;
+}
+.comment .content article {
+  background-color: #d1dde9;
+  width: auto;
+  border-radius: 10px;
+  padding: 10px;
+  
+}
+.comment .content article p {
+  font-size: 12px;
+  font-family: 'iransans-light';
+  color: #24292e;
+  line-height: 2;
+}
+.answer .comment-wrap {
+  direction: ltr;
+}
+.answer .comment .content article {
+  direction: rtl;
+  background-color: #d4f997;
 }

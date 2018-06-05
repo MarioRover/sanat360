@@ -106,17 +106,17 @@
     <!-- MAIN START -->
     <main id="product-detail" class="grid align-center">
         <div class="product-wrap grid-y align-center-middle">
-            <div class="pro-review grid-x-no">
+            <div class="pro-review grid-x-no-re">
                 <div class="pro-slider">
                     <div class="view">
                         <div class="myslides">
-                            <a href="img/sample-product.jpg">
-                                <img src="img/sample-product.jpg" alt="">
+                            <a href="img/macOS-mojave.jpg">
+                                <img src="img/macOS-mojave.jpg" alt="">
                             </a>
                         </div>
                         <div class="myslides">
-                            <a href="img/2.jpg">
-                                <img src="img/2.jpg" alt="">
+                            <a href="img/wind_turbine-wallpaper-1920x1080.jpg">
+                                <img src="img/wind_turbine-wallpaper-1920x1080.jpg" alt="">
                             </a>
                         </div>
                         <div class="myslides">
@@ -128,8 +128,8 @@
                     <div class="thumbs grid-x-no align-center-middle">
                         <i class="fas fa-caret-left"></i>
                         <div class="pics-thumbs grid-x align-middle">
-                            <img src="img/sample-product.jpg" alt="" class="demo">
-                            <img src="img/2.jpg" alt="" class="demo">
+                            <img src="img/macOS-mojave.jpg" alt="" class="demo">
+                            <img src="img/wind_turbine-wallpaper-1920x1080.jpg" alt="" class="demo">
                             <img src="img/simpleforcard.jpg" alt="" class="demo">
                         </div>
                         <i class="fas fa-caret-right"></i>
@@ -147,45 +147,45 @@
                         </div>
                     </div>
                     <div class="content">
-                       <div class="info grid-x-no align-middle align-left">
-                        <i class="fal fa-building"></i>
-                        <span>: نام شرکت</span>
-                        <span class="icon">apple</span>
-                       </div>
-                       <div class="info grid-x-no align-middle align-left">
-                        <i class="far fa-bold"></i>
-                        <span>: نام برند</span>
-                        <span class="icon">apple</span>
-                       </div>
-                       <div class="info grid-x-no align-middle align-left"></div>
-                       <div class="btn">
-                        <div class="btn-wrap grid-x-no align-middle">
-                            <div class="btn-call grid align-center-middle">
-                                <span>تماس با شرکت</span>
-                            </div>
-                            <i title="اضافه شدن به لیست مورد علاقه ها" class="fas fa-heart heart"></i>
-                            <i title="اشتراک گذاری" class="fas fa-share-alt share"></i>
+                        <div class="info grid-x-no align-middle align-left">
+                            <i class="fal fa-building"></i>
+                            <span>: نام شرکت</span>
+                            <span class="icon">apple</span>
                         </div>
-                       </div>
+                        <div class="info grid-x-no align-middle align-left">
+                            <i class="far fa-bold"></i>
+                            <span>: نام برند</span>
+                            <span class="icon">apple</span>
+                        </div>
+                        <div class="info grid-x-no align-middle align-left"></div>
+                        <div class="btn">
+                            <div class="btn-wrap grid-x-no align-middle">
+                                <div class="btn-call grid align-center-middle">
+                                    <span>تماس با شرکت</span>
+                                </div>
+                                <i title="اضافه شدن به لیست مورد علاقه ها" class="fas fa-heart heart"></i>
+                                <i title="اشتراک گذاری" class="fas fa-share-alt share"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="pro-wrap">
                 <div class="tab-nav">
                     <ul class="grid-x-no-re">
-                        <li id="tab1" class="grid align-center-middle">
+                        <li class="grid align-center-middle">
                             <div class="grid-x-no-re align-center-middle">
                                 <i class="fal fa-cog"></i>
                                 <span>مشخصات</span>
                             </div>
                         </li>
-                        <li id="tab2" class="grid align-center-middle">
+                        <li class="grid align-center-middle">
                             <div class="grid-x-no-re align-center-middle">
                                 <i class="fal fa-info"></i>
                                 <span>توضیحات</span>
                             </div>
                         </li>
-                        <li id="tab3" class="grid align-center-middle">
+                        <li class="grid align-center-middle">
                             <div class="grid-x-no-re align-center-middle">
                                 <i class="fal fa-comments"></i>
                                 <span>نظرات</span>
@@ -194,20 +194,104 @@
                     </ul>
                 </div>
                 <div class="tab-content">
-                    <section id="content-tab1">
+                    <section>
                         <p>lorem1</p>
                     </section>
-                    <section id="content-tab2">
+                    <section>
                         <p>lorem2</p>
                     </section>
-                    <section id="content-tab3">
-                        <p>lorem3</p>
+                    <section class="massenger">
+                        <h4>دیدگاه شما</h4>
+                        <div class="create-comment">
+                            <div class="wrap grid-x-no">
+                                <div class="profile-pic">
+                                    <img src="img/unknownProfile.jpg" alt="Hossein Akbari">
+                                </div>
+                                <div class="input-wrap grid-y">
+                                    <div class="grid-x">
+                                        <input class="input-comment" type="text" placeholder="موضوع" name="subject">
+                                        <input class="input-comment" type="email" placeholder="ایمیل" name="email">
+                                    </div>
+                                    <textarea class="textarea-comment" name="comment" placeholder="دیدگاه خود را وارد کنید"></textarea>
+                                    <div class="btn-wrap grid">
+                                        <div class="btn grid-x-no align-center-middle">
+                                            <span>ارسال</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="comments">
+                            <article class="comment-box">
+                                <div class="question">
+                                    <div class="comment-wrap">
+                                        <div class="comment grid-x-no">
+                                            <div class="profile-pic">
+                                                <img src="img/alimansour.jpg" alt="Hossein Akbari">
+                                            </div>
+                                            <div class="content grid-y">
+                                                <header class="grid align-middle">
+                                                    <div class="grid-x-no align-middle">
+                                                        <span class="username">علی منصوری</span>
+                                                        <span class="subject">خرابی سایت</span>
+                                                    </div>
+                                                </header>
+                                                <article>
+                                                    <p>با سلام ، متاسفانه سایت شما در بعضی قسمت ها دچر مشکل می باشد ، لطفا پیگیری بفرمایید</p>
+                                                </article>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="answer">
+                                    <div class="comment-wrap">
+                                        <div class="comment grid-x-no">
+                                            <div class="profile-pic">
+                                                <img src="img/IMG_6456.JPG" alt="Hossein Akbari">
+                                            </div>
+                                            <div class="content grid-y">
+                                                <header class="grid align-middle">
+                                                    <div class="grid-x-no align-middle">
+                                                        <span class="username">حسین اکبری</span>
+                                                    </div>
+                                                </header>
+                                                <article>
+                                                    <p>گه نخور میکروب کثافت !</p>
+                                                </article>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="comment-box">
+                                <div class="question">
+                                    <div class="comment-wrap">
+                                        <div class="comment grid-x-no">
+                                            <div class="profile-pic">
+                                                <img src="img/unknownProfile.jpg" alt="Reza">
+                                            </div>
+                                            <div class="content grid-y">
+                                                <header class="grid align-middle">
+                                                    <div class="grid-x-no align-middle">
+                                                        <span class="username">Reza</span>
+                                                        <span class="subject">زنده باد</span>
+                                                    </div>
+                                                </header>
+                                                <article>
+                                                    <p>سایتتون خیلی عالیه دمتون گرم</p>
+                                                </article>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
                     </section>
                 </div>
                
             </div>
         </div>
-
        <script src="plugin/ProductsDetails/js/ProductsDetails.js"></script>
     </main>
     <!-- MAIN END -->
