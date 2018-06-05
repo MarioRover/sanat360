@@ -216,19 +216,14 @@ transition-duration: .5s;
 }
 .pro-wrap .tab-content section {
   display: none;
+  padding: 25px 15px;
 }
 .pro-wrap .tab-content section.active {
   display: block;
 }
 /* --------------------------------- */
 /* Massenger */
-.massenger {
-  padding: 25px 15px;
-}
-.massenger .create-comment {
-  
-}
-.massenger h4 {
+.tab-content section .header {
   margin-bottom: 1.5em;
   font-size: 14px;
 }
@@ -310,7 +305,6 @@ input:focus,textarea:focus {
   font-family: 'iransans-light';
   color: #fff;
 }
- 
 .massenger .clear {
   clear: both;
   content: " ";
@@ -320,14 +314,11 @@ input:focus,textarea:focus {
 .comments .comment-box {
   width: 100%;
 }
-.comment {
-  width: 34em;
-}
 .comment .content {
-  width: 30em;
+  width: 25em;
 } 
 .comment .content header {
-  height: 3.2em;
+  height: 2em;
 }
 .comment .content header .username {
   font-size: 11px;
@@ -356,4 +347,28 @@ input:focus,textarea:focus {
 .answer .comment .content article {
   direction: rtl;
   background-color: #d4f997;
+}
+/* ------------------------------------- */
+.technical .tech-list {
+
+}
+.technical .tech-list .row {
+  margin-bottom: 9px;
+}
+.technical .tech-list .row span {
+  padding: 9px 21px;
+  font-size: 12px;
+  font-family: 'iransans-light';
+  text-align: right;
+}
+.technical .tech-list .row .title {
+  background: #f0f1f2;
+  margin-left: 19px;
+  color: #656565;
+  width: 30%;
+}
+.technical .tech-list .row .value {
+  width: 80%;
+  background: #f7f9fa;
+  color: #777;
 }
