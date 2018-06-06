@@ -106,47 +106,56 @@
     <!-- MAIN START -->
     <main id="product-detail" class="grid align-center">
         <div class="product-wrap grid-y align-center-middle">
-            <div class="pro-review grid-x-no-re">
-                <div class="pro-slider">
-                    <div class="view">
-                        <div class="myslides">
-                            <a href="img/macOS-mojave.jpg">
-                                <img src="img/macOS-mojave.jpg" alt="">
-                            </a>
+            <div class="pro-review grid-y">
+                <div class="pro-slider grid-y">
+                    <div class=" pro-slider-wrap grid align-center">
+                        <div class="view">
+                            <div class="myslides">
+                                <a href="img/macOS-mojave.jpg">
+                                    <img src="img/macOS-mojave.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="myslides">
+                                <a href="img/wind_turbine-wallpaper-1920x1080.jpg">
+                                    <img src="img/wind_turbine-wallpaper-1920x1080.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="myslides">
+                                <a href="img/simpleforcard.jpg">
+                                    <img src="img/simpleforcard.jpg" alt="">
+                                </a>
+                            </div>
                         </div>
-                        <div class="myslides">
-                            <a href="img/wind_turbine-wallpaper-1920x1080.jpg">
-                                <img src="img/wind_turbine-wallpaper-1920x1080.jpg" alt="">
-                            </a>
+                        <div class="thumbs grid-x-no align-center-middle">
+                            <i class="fas fa-caret-left"></i>
+                            <div class="pics-thumbs grid-x align-middle">
+                                <img src="img/macOS-mojave.jpg" alt="" class="demo">
+                                <img src="img/wind_turbine-wallpaper-1920x1080.jpg" alt="" class="demo">
+                                <img src="img/simpleforcard.jpg" alt="" class="demo">
+                            </div>
+                            <i class="fas fa-caret-right"></i>
                         </div>
-                        <div class="myslides">
-                            <a href="img/simpleforcard.jpg">
-                                <img src="img/simpleforcard.jpg" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="thumbs grid-x-no align-center-middle">
-                        <i class="fas fa-caret-left"></i>
-                        <div class="pics-thumbs grid-x align-middle">
-                            <img src="img/macOS-mojave.jpg" alt="" class="demo">
-                            <img src="img/wind_turbine-wallpaper-1920x1080.jpg" alt="" class="demo">
-                            <img src="img/simpleforcard.jpg" alt="" class="demo">
-                        </div>
-                        <i class="fas fa-caret-right"></i>
                     </div>
                 </div>
                 <div class="pro-content">
-                    <div class="pro-header">
-                        <h4>نام محصول</h4>
-                        <div class="rate-pro">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half"></i>
+                    <div class="pro-header grid align-right">
+                        <div class="wrap grid-x-no-re align-justify">
+                            <h4>نام محصول</h4>
+                            <div class="rate-pro">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half"></i>
+                            </div>
                         </div>
                     </div>
                     <div class="content">
+                        <div class="info grid-x-no align-middle align-left">
+                            <i class="fal fa-box-open"></i>
+                            <span>: نام محصول</span>
+                            <span class="icon">macbook</span>
+                        </div>
                         <div class="info grid-x-no align-middle align-left">
                             <i class="fal fa-building"></i>
                             <span>: نام شرکت</span>
@@ -213,12 +222,12 @@
                     <section class="massenger">
                         <h4 class="header">دیدگاه شما</h4>
                         <div class="create-comment">
-                            <div class="wrap grid-x-no">
+                            <div class="wrap grid-y">
                                 <div class="profile-pic">
                                     <img src="img/unknownProfile.jpg" alt="Hossein Akbari">
                                 </div>
                                 <div class="input-wrap grid-y">
-                                    <div class="grid-x">
+                                    <div class="grid-y">
                                         <input class="input-comment" type="text" placeholder="موضوع" name="subject">
                                         <input class="input-comment" type="email" placeholder="ایمیل" name="email">
                                     </div>
@@ -236,17 +245,17 @@
                             <article class="comment-box">
                                 <div class="question">
                                     <div class="comment-wrap">
-                                        <div class="comment grid-x-no">
-                                            <div class="profile-pic">
-                                                <img src="img/alimansour.jpg" alt="Hossein Akbari">
+                                        <div class="comment grid-y">
+                                            <div class="comment-info grid-x-no">
+                                                <div class="profile-pic grid-x-no">
+                                                    <img src="img/alimansour.jpg" alt="Hossein Akbari">
+                                                </div>
+                                                <div class="grid-x-no align-middle">
+                                                    <span class="username">علی منصوری</span>
+                                                    <span class="subject">خرابی سایت</span>
+                                                </div>
                                             </div>
-                                            <div class="content grid-y">
-                                                <header class="grid align-middle">
-                                                    <div class="grid-x-no align-middle">
-                                                        <span class="username">علی منصوری</span>
-                                                        <span class="subject">خرابی سایت</span>
-                                                    </div>
-                                                </header>
+                                            <div class="content">
                                                 <article>
                                                     <p>با سلام ، متاسفانه سایت شما در بعضی قسمت ها دچر مشکل می باشد ، لطفا پیگیری بفرمایید</p>
                                                 </article>
@@ -256,16 +265,16 @@
                                 </div>
                                 <div class="answer">
                                     <div class="comment-wrap">
-                                        <div class="comment grid-x-no">
-                                            <div class="profile-pic">
-                                                <img src="img/IMG_6456.JPG" alt="Hossein Akbari">
+                                        <div class="comment grid-y">
+                                            <div class="comment-info grid-x-no">
+                                                <div class="profile-pic">
+                                                    <img src="img/IMG_6456.JPG" alt="Hossein Akbari">
+                                                </div>
+                                                <div class="grid-x-no align-middle">
+                                                    <span class="username">حسین اکبری</span>
+                                                </div>
                                             </div>
                                             <div class="content grid-y">
-                                                <header class="grid align-middle">
-                                                    <div class="grid-x-no align-middle">
-                                                        <span class="username">حسین اکبری</span>
-                                                    </div>
-                                                </header>
                                                 <article>
                                                     <p>گه نخور میکروب کثافت !</p>
                                                 </article>
@@ -277,17 +286,17 @@
                             <article class="comment-box">
                                 <div class="question">
                                     <div class="comment-wrap">
-                                        <div class="comment grid-x-no">
-                                            <div class="profile-pic">
-                                                <img src="img/unknownProfile.jpg" alt="Reza">
+                                        <div class="comment grid-y">
+                                            <div class="comment-info grid-x-no">
+                                                <div class="profile-pic">
+                                                    <img src="img/unknownProfile.jpg" alt="Reza">
+                                                </div>
+                                                <div class="grid-x-no align-middle">
+                                                    <span class="username">Reza</span>
+                                                    <span class="subject">زنده باد</span>
+                                                </div>
                                             </div>
                                             <div class="content grid-y">
-                                                <header class="grid align-middle">
-                                                    <div class="grid-x-no align-middle">
-                                                        <span class="username">Reza</span>
-                                                        <span class="subject">زنده باد</span>
-                                                    </div>
-                                                </header>
                                                 <article>
                                                     <p>سایتتون خیلی عالیه دمتون گرم</p>
                                                 </article>
