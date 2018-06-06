@@ -87,17 +87,8 @@
         <div class="map grid-y">
           <div class="map-wrp grid align-center">
             <div id="map"></div>
-            <script>
-              function myMap() {
-                var mapOptions = {
-                    center: new google.maps.LatLng(51.5, -0.12),
-                    zoom: 10,
-                    mapTypeId: google.maps.MapTypeId.HYBRID
-                }
-                var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-              }
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCya4t9wSKydHvQUUNhUgc2fO_aQTLnbng&callback=initMap">
             </script>
-            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCya4t9wSKydHvQUUNhUgc2fO_aQTLnbng&callback=initMap" type="text/javascript"></script>
           </div>
           <div class="info-contact grid-x align-center">
             <div class="info-contact-wrp grid-y">
