@@ -681,12 +681,6 @@
     width: 50em;
   }
 }
-/* ------------------------ */
-/* Add Product */
-.add-pro {
-  width: 95%;
- /* box-shadow: 0px 2px 6px 1px #d2d2d2;  */
-}
 /* ------------------------------ */
 /* Product Manenger */
 .products .products-wrap .msg {
@@ -752,4 +746,327 @@
   .products-wrap {
    width: 50em;
   }
+}
+/* ------------------------ */
+/* Add Product */
+.progress-wrap {
+  width: 20em;
+  margin-bottom: 4em;
+}
+.progress-wrap ul {
+  width: 100%;
+  margin-bottom: 1.5em;   
+}
+.progress-wrap ul .wrap {
+  width: 25em;
+  position: relative;
+}
+.progress-wrap ul li {
+  font-family: 'iransans-light';
+  font-size: 11px;
+  position: absolute;
+  color: #666;
+}
+.progress-wrap ul li:first-child {
+  right: 12px;
+}
+.progress-wrap ul li:nth-child(2) {
+  left: 116px;
+}
+.progress-wrap ul li:last-child {
+  left: 6px;
+}
+.progress {
+  width: 100%;
+  margin: 0px auto;
+  text-align: center;
+}
+.progress .circle,
+.progress .bar {
+  display: inline-block;
+  background: #fff;
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  border: 1px solid #d5d5da;
+}
+.progress .bar {
+  position: relative;
+  width: 5em;
+  height: 6px;
+  margin-left: -5px;
+  margin-right: -5px;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+}
+.progress .circle .label {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 32px;
+  margin-top: 3px;
+  color: #b5b5ba;
+  font-size: 17px;
+}
+.progress .circle .title {
+  color: #b5b5ba;
+  font-size: 13px;
+  line-height: 30px;
+  margin-left: -5px;
+}
+/* Done / Active */
+.progress .bar.done,
+.progress .circle.done {
+  background: #eee;
+}
+.progress .bar.active {
+  background: linear-gradient(to left, #EEE 40%, #FFF 60%);
+}
+.progress .circle.done .label {
+  color: #FFF;
+  background: #8bc435;
+  box-shadow: inset 0 0 2px rgba(0,0,0,.2);
+}
+.progress .circle.done .title {
+  color: #444;
+}
+.progress .circle.active .label {
+  color: #FFF;
+  background: #0c95be;
+  box-shadow: inset 0 0 2px rgba(0,0,0,.2);
+}
+.progress .circle.active .title {
+  color: #0c95be;
+}
+/* ====================== */
+/* Step 1 in Add Product */
+.add-pro {
+  width: 95%;
+}
+.add-pro .add-pro-wrap {
+  width: 100%;
+}
+.add-pro .add-pro-wrap .pro-name ,
+.add-pro .add-pro-wrap .pro-category {
+  margin-bottom: 2em;
+}
+.add-pro .add-pro-wrap .pro-name input ,
+.technical form input {
+  width: 100%;
+  height: 34px;
+  margin-left: 5px;
+  color: #24292e;
+  font-size: 10px;
+  background-color: #fafbfc;
+  padding: 6px 8px;
+  line-height: 20px;
+  vertical-align: middle;
+  border: 1px solid #d1d5da;
+  outline: 0;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 2px rgba(27,31,35,0.075);
+}
+.add-pro .add-pro-wrap .pro-name input:focus,
+.technical form input:focus {
+  background-color: #fff;
+  border: 1px solid #2188ff;
+  outline: none;
+  box-shadow: inset 0 1px 2px rgba(27,31,35,0.075), 0 0 0 0.2em rgba(3,102,214,0.3);
+}
+.add-pro label {
+  width: 100%;
+  margin-bottom: 1em;
+  font-size: 12px;
+  color: #333;
+}
+.add-pro .add-pro-wrap .pro-category .category-select {
+  padding: 0;
+} 
+.add-pro .add-pro-wrap .pro-category .category-select select {
+  width: 100%;
+  height: 34px;
+  margin-left: 5px;
+  color: #24292e;
+  font-size: 10px;
+  background-color: #fafbfc;
+  padding: 6px 8px;
+  line-height: 20px;
+  vertical-align: middle;
+  border: 1px solid #d1d5da;
+  outline: 0;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 2px rgba(27,31,35,0.075);
+}
+.category-select select option:first-child {
+  color: #777;
+}
+.add-pro .add-pro-wrap .btn-wrap {
+  width: 100%;
+}
+.add-pro .add-pro-wrap .btn-wrap .btn,
+.upload .btn {
+  width: 6em;
+  height: 2em;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #1867f0;
+  margin-left: 1em;
+}
+.add-pro .add-pro-wrap .btn-wrap .btn:hover,
+.upload .btn:hover {
+  background-color: #124fb9;
+}
+.add-pro .add-pro-wrap .btn-wrap .btn span,
+.upload .btn span {
+  font-family: 'iransans-light';
+  color: #fff;
+  font-size: 11px;
+}
+@media screen and (min-width: 25em) {
+	/* 400px */
+	.add-pro {
+    width: 23em;
+  }
+}
+@media print, screen and (min-width: 48em) {
+  /*768px*/
+  .add-pro {
+    width: 30em;
+  }
+  .progress .bar {
+    width: 7em;
+  }
+  .progress-wrap {
+    width: 23em;
+  }
+  .progress-wrap ul li:nth-child(2) {
+    left: 140px;
+  }
+  .progress-wrap ul li:first-child {
+    right: 4px;
+  }
+  .progress-wrap ul li:last-child {
+    left: -2px;
+  } 
+}
+/* ============================= */
+/* Step 2 in Add Product */
+.add-pro-wrap .information textarea {
+  width: 100%;
+  height: 15em;
+  font-size: 11px;
+  resize: none;
+  margin-bottom: 1em;
+  color: #24292e;
+  font-size: 10px;
+  background-color: #fafbfc;
+  padding: 6px 8px;
+  line-height: 20px;
+  vertical-align: middle;
+  border: 1px solid #d1d5da;
+  outline: 0;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 2px rgba(27,31,35,0.075);
+}
+.add-pro-wrap .information textarea:focus {
+  background-color: #fff;
+border: 1px solid #2188ff;
+outline: none;
+box-shadow: inset 0 1px 2px rgba(27,31,35,0.075), 0 0 0 0.1em rgba(3,102,214,0.3);
+}
+.technical form input {
+  margin-bottom: 1em;
+}
+/* ================================ */
+/* Step 3 in Add Product */
+.upload-img {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 2em;
+}
+.upload-img .view-slider {
+  margin-bottom: 1em;
+}
+.upload-img .view {
+  width: 23em;
+  height: 16em;
+}
+.upload-img .view .myslides {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.upload-img .view .myslides img ,
+.upload-img .slide-box .demo img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.upload-img .slide-box {
+  width: 23em;
+}
+.upload-img .slide-box .demo {
+  float: right;
+  position: relative;
+  overflow: hidden;
+  width: 7em;
+  height: 5em;
+  margin: 5px;
+  cursor: pointer;
+}
+.upload-img .slide-box-wrap {
+  width: 100%;
+}
+.upload-img .slide-box .demo.main-img {
+  border: 4px solid #2188ff;
+}
+.upload-img .slide-box .demo .delete {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background-color: #dd1414e6;
+  width: 1.5em;
+  height: 1.5em;
+  cursor: pointer;
+  -webkit-transform: translateY(-24px);
+  -moz-transform: translateY(-24px);
+  -ms-transform: translateY(-24px);
+  -o-transform: translateY(-24px);
+  transform: translateY(-24px);
+  -webkit-transition: 0.1s linear;
+  -moz-transition: 0.1s linear;
+  -ms-transition: 0.1s linear;
+  -o-transition: 0.1s linear;
+  transition: 0.1s linear;
+}
+.upload-img .slide-box .demo .delete.show {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+}
+.upload-wrap {
+  width: 23em;
+  margin-bottom: 1em;
+}
+.upload {
+  width: 100%;
+  margin-bottom: 1em;
+}
+.upload span {
+  font-size: 12px;
+  color: #333;
+}
+.upload .btn {
+  margin: 0;
+}
+.add-pro.step3 .add-pro-wrap .btn-wrap {
+  width: 23em;
 }

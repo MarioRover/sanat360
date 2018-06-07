@@ -200,53 +200,97 @@
         </section>
         <!-- Main Content -->
         <section class="content grid-x align-center">
-          <div class="add-pro step1">
-
+          <div class="add-pro step3">
             <div class="grid align-center">
               <div class="progress-wrap grid-y">
-              <ul class="grid align-center"> 
-                <div class="wrap grid-x-no align-justify">
-                  <li>مشخصات محصول</li>
-                  <li>عکس محصول</li>
-                  <li>ثبت محصول</li>
-                </div>
-              </ul>
-              <div class="progress">
-                <div class="circle active">
-                  <span class="label">1</span>
-                </div>
-                <span class="bar"></span>
-                <div class="circle">
-                  <span class="label">2</span>
-                </div>
-                <span class="bar"></span>
-                <div class="circle">
-                  <span class="label">3</span>
+                <ul class="grid align-center">
+                  <div class="wrap grid-x-no align-justify">
+                    <li>نام محصول</li>
+                    <li>مشخصات محصول</li>
+                    <li>عکس محصول</li>
+                  </div>
+                </ul>
+                <div class="progress">
+                  <div class="circle done">
+                    <span class="label">
+                      <i class="fal fa-check"></i>
+                    </span>
+                  </div>
+                  <span class="bar done"></span>
+                  <div class="circle done">
+                    <span class="label">
+                      <i class="fal fa-check"></i>
+                    </span>
+                  </div>
+                  <span class="bar active"></span>
+                  <div class="circle active">
+                    <span class="label">3</span>
+                  </div>
                 </div>
               </div>
             </div>
-            </div>
-            
             <div class="add-pro-wrap">
-              <div class="pro-name grid-y align-middle">
-                <label for="name">نام محصول خود را وارد نمایید</label>
-                <input type="text" placeholder="نام محصول">
+              <div class="grid align-center">
+                <div class="upload-wrap">
+                  <div class="upload grid-x-no align-middle align-justify">
+                    <span>آپلود عکس اصلی</span>
+                    <div class="btn grid align-center-middle">
+                      <span>آپلود</span>
+                    </div>
+                  </div>
+                  <div class="upload grid-x-no align-middle align-justify">
+                    <span>آپلود سایر عکس ها</span>
+                    <div class="btn grid align-center-middle">
+                      <span>آپلود</span>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="pro-category grid-y">
-                <label for="category">دسته بندی محصول خود را انتخاب کنید</label>
-                <form class="category-select" action="">
-                  <select name="category">
-                    <option value="">انتخاب دسته بندی</option>
-                    <option value="">صنعت</option>
-                    <option value="">کامپیوتر</option>
-                    <option value="">آب و فاضلاب</option>
-                    <option value="">الکترونیک</option>
-                  </select>
-                </form>
+              <div class="upload-img grid-y">
+                <div class="view-slider grid align-center">
+                  <div class="view">
+                    <div class="myslides">
+                      <img src="img/macOS-mojave.jpg" alt="">
+                    </div>
+                    <div class="myslides">
+                      <img src="img/2.jpg" alt="">
+                    </div>
+                    <div class="myslides">
+                      <img src="img/photo-1429043794791-eb8f26f44081.jpeg" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="slide-box-wrap grid align-center">
+                  <div class="slide-box">
+                    <div class="demo main-img">
+                      <div class="delete grid align-center-middle" title="خذف عکس">
+                        <i class="far fa-minus-circle"></i>
+                      </div>
+                      <img src="img/macOS-mojave.jpg" alt="">
+                    </div>
+                    <div class="demo">
+                      <div class="delete grid align-center-middle" title="خذف عکس">
+                        <i class="far fa-minus-circle"></i>
+                      </div>
+                      <img src="img/2.jpg" alt="">
+                    </div>
+                    <div class="demo">
+                      <div class="delete grid align-center-middle" title="خذف عکس">
+                        <i class="far fa-minus-circle"></i>
+                      </div>
+                      <img src="img/photo-1429043794791-eb8f26f44081.jpeg" alt="">
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="btn-wrap">
-                <div class="btn grid align-center-middle" id="step2">
-                  <span>ذخیره</span>
+              <div class="grid align-center">
+                <div class="btn-wrap grid-x-no">
+                  <div class="btn grid align-center-middle" id="step3">
+                    <span>ذخیره</span>
+                  </div>
+                  <div class="btn back grid align-center-middle" id="step2">
+                    <span>بازگشت</span>
+                  </div>
                 </div>
               </div>
             </div>

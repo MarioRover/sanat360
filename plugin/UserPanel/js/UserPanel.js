@@ -85,3 +85,51 @@ $(document).ready(function () {
   })
 
 });
+// Add Product
+$(`#step1`).click(function(){
+  window.location.href = `CompanyPanel-AddProducts.html`;
+})
+$(`#step2`).click(function () {
+  window.location.href = `CompanyPanel-AddProducts-Step2.html`;
+})
+$(`#step3`).click(function () {
+  window.location.href = `CompanyPanel-AddProducts-Step3.html`;
+})
+// Add Product Slider
+let slideIndex = 0;
+let slides = $(".myslides");
+let dots = document.querySelectorAll(`.demo`);
+showSlides(slideIndex);
+dots.forEach(function (dot, index) {
+  dot.addEventListener(`click`, function () {
+    showSlides(slideIndex = index);
+  })
+})
+function showSlides(slideNum) {
+  var i;
+  if (slideNum > (slides.length - 1)) {
+    slideIndex = 0;
+  }
+  if (slideNum < 0) {
+    slideIndex = (slides.length - 1);
+  }
+  for (i = 0; i < (slides.length); i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < (dots.length); i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+    dots[i].style.opacity = `0.5`;
+  }
+  slides[slideIndex].style.display = "block";
+  dots[slideIndex].className += " active";
+  dots[slideIndex].style.opacity = `1`;
+}
+// Delete Picture
+dots.forEach(function(dot , index) {
+  dot.addEventListener(`mouseover`,function() {
+    dot.children[0].classList.add(`show`);
+  })
+  dot.addEventListener(`mouseout`, function () {
+    dot.children[0].classList.remove(`show`);
+  })
+})
