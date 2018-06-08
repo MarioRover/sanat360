@@ -230,13 +230,32 @@
               <div class="technical">
                 <label for="">مشخصات فنی</label>
                 <form action="" class="grid-y">
-                  <label for="size">ابعاد</label>
-                  <input type="text" name="size" placeholder="ابعاد">
-                  <label for="weight">وزن</label>
-                  <input type="text" name="weight" placeholder="ابعاد">
-                  <label for="color">رنگ</label>
-                  <input type="text" name="color" placeholder="رنگ">
+                  <label for="import-title">عنوان</label>
+                  <input type="text" name="import-title" placeholder="عنوان مشخصه محصول مورد نظر">
+                  <label for="import-value">توضیحات</label>
+                  <input type="text" name="import-value" placeholder="توضیح مشخصه محصول مورد نظر">
+                  <div class="btn-wrap grid-x-no">
+                    <div class="btn grid align-center-middle" id="step3">
+                      <span>اضافه کردن</span>
+                    </div>
+                  </div>
                 </form>
+                <ul class="tech-list grid-y">
+                  <li class="row grid-x-no align-middle">
+                    <span class="icon grid align-center-middle">
+                      <i class="fal fa-trash-alt" title="حذف"></i>
+                    </span>
+                    <span class="title">ابعاد</span>
+                    <span class="value">23*44*130</span>
+                  </li>
+                  <li class="row grid-x-no align-middle">
+                    <span class="icon grid align-center-middle">
+                      <i class="fal fa-trash-alt" title="حذف"></i>
+                    </span>
+                    <span class="title">وزن</span>
+                    <span class="value">5 کیلوگرم</span>
+                  </li>
+                </ul>
               </div>
               <div class="information grid-y">
                 <label for="description">توضیحات محصول</label>
