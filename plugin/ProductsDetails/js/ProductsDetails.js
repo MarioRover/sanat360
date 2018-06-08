@@ -71,3 +71,21 @@ $(document).ready(function () {
  $(`input`).val(``); 
  $(`textarea`).val(``);
 });
+// Modal
+let modalBtn = document.querySelector(`.pro-content .content .btn .btn-wrap .btn-call`);
+let modalBg = document.querySelector(`.modal-bg`);
+let modalContent = document.querySelector(`.modal-content`);
+let closeBtn = document.querySelector(`.modal-content header .close`);
+
+modalBtn.addEventListener(`click`, function() {
+  modalBg.classList.add(`show`);
+  modalContent.classList.add(`show`);
+})
+modalBg.addEventListener(`click`,function(){
+  this.classList.remove(`show`);
+  modalContent.classList.remove(`show`);
+})
+closeBtn.addEventListener(`click`,function() {
+  modalBg.classList.remove(`show`);
+  modalContent.classList.remove(`show`);
+})
