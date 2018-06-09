@@ -387,9 +387,12 @@ input:focus,textarea:focus {
   z-index: 10;
   cursor: pointer;
   visibility: hidden;
+  -webkit-transition: background-color 250ms linear;
+  -moz-transition: background-color 250ms linear;
+  -ms-transition: background-color 250ms linear;
+  -o-transition: background-color 250ms linear;
   transition: background-color 250ms linear;
 }
-
 .modal-content {
   position: absolute;
   top: 50%;
@@ -402,7 +405,15 @@ input:focus,textarea:focus {
   background-color: white;
   border-radius: 4px;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
   transform: scale(0);
+  -webkit-transition: transform 250ms ease;
+  -moz-transition: transform 250ms ease;
+  -ms-transition: transform 250ms ease;
+  -o-transition: transform 250ms ease;
   transition: transform 250ms ease;
   visibility: hidden;
   z-index: 20;
@@ -411,11 +422,19 @@ input:focus,textarea:focus {
   position: relative;
   float: right;
   font-size: 18px;
+  -webkit-transition: transform 500ms ease;
+  -moz-transition: transform 500ms ease;
+  -ms-transition: transform 500ms ease;
+  -o-transition: transform 500ms ease;
   transition: transform 500ms ease;
   z-index: 11;
 }
 .modal-content .close:hover {
   color: #3498db;
+  -webkit-transform: rotate(540deg);
+  -moz-transform: rotate(540deg);
+  -ms-transform: rotate(540deg);
+  -o-transform: rotate(540deg);
   transform: rotate(540deg);
   cursor: pointer;
 }
@@ -429,9 +448,6 @@ input:focus,textarea:focus {
   font-family: 'iransans-bold';
   font-size: 14px;
   color: #333;
-}
-.modal-content header .close {
-   
 }
 .modal-content form {
   direction: rtl;
@@ -470,11 +486,23 @@ input:focus,textarea:focus {
   visibility: visible;
   background-color: black;
   opacity: 0.7;
+  -webkit-transition: background-color 250ms linear;
+  -moz-transition: background-color 250ms linear;
+  -ms-transition: background-color 250ms linear;
+  -o-transition: background-color 250ms linear;
   transition: background-color 250ms linear;
 }
 .modal-content.show {
   visibility: visible;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
   transform: scale(1);
+  -webkit-transition: transform 250ms ease;
+  -moz-transition: transform 250ms ease;
+  -ms-transition: transform 250ms ease;
+  -o-transition: transform 250ms ease;
   transition: transform 250ms ease;
   z-index: 99;
 }
