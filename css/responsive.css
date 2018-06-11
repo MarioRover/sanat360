@@ -1,4 +1,16 @@
-﻿@media print, screen and (min-width: 48em) {
+﻿@media print, screen and (min-width: 40.125em) {
+	/* 642px */
+	#blog .blogs-wrap {
+    width: 48em;
+	}
+}
+@media print, screen and (min-width: 40.625em) {
+	/* 650px */
+	#blog .blogs-wrap {
+		width: 38.1em;
+	}
+}
+@media print, screen and (min-width: 48em) {
 	/*768px*/
 	.hero1 .hero-wrp .content .content-wrp {
 		padding: 0 35px;
@@ -9,9 +21,8 @@
 		margin-bottom: 20px;
 	}
 	.hero3 .hero-wrp .content .content-wrp {
-        width: 18em;
-    }
-
+    width: 18em;
+  }
 	#footer-site .footer-wrp .top .col-3 {
 		margin-top: 3em;
 	}
@@ -37,6 +48,9 @@
 	}
 	#signup-user-page .signup-wrp form .input-wrp input {
 		font-size: 12px;
+	}
+	#blog .blogs-wrap {
+		width: 42.5em;
 	}
 }
 @media print, screen and (min-width: 61.250em) {
@@ -89,9 +103,26 @@
 	#footer-site .footer-wrp .top .col-1 .input-wrp span {
 		width: 3em;
 	}
+	#blog .blogs-wrap {
+		width: 51.8em;
+	}
+}
+@media print, screen and (min-width: 64em) {
+  /* 1024px */
+  #blog .blogs-wrap {
+    width: 54.8em;
+	}
 }
 @media screen and (min-width: 75em) {
 	/*1200px*/
 	.hero2 .hero-wrp .content .content-wrp {
 		width: 30%;
 	}
+}
+@media screen and (min-width: 76.875em) {
+	/* 1230px */
+	#blog .blogs-wrap {
+    width: 73em;
+	}
+}
+

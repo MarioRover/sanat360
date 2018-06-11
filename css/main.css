@@ -426,4 +426,38 @@
 }
 /* END FOOTER */
 /* =========================================== */
-/* SIGNIN PAGE */
+/* Blog Page */
+#blog {
+    z-index: 2;
+    margin-top: 50px;
+}
+#blog .blog-wrap {
+    width: 100%;
+    min-height: 40em;
+    z-index: 2;  
+}
+#blog header {
+    width: 100%;
+}
+#blog header .header-wrap {
+    background-color: #f5c41a;
+    padding: 10px 20px;
+    border-radius: 0 0 8px 10px;
+    box-shadow: 0px 1px 15px -2px #555951;
+}
+#blog header .header-wrap h2 {
+    text-align: center;
+    font-size: 12px;
+}
+#blog .blogs {
+    width: 100%;
+    min-height: 37em;
+    overflow: hidden;
+    padding: 2em 0;
+}
+#blog .blogs-wrap {
+    width: 19em;
+}
+#blog .blogs-wrap .post-module {
+    float: right;
+}
